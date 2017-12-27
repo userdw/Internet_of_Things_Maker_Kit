@@ -38,7 +38,7 @@ Untuk melakukan pemrograman pada board ESP8266  menggunakan arduino IDE perlu di
 * Pilih NodeMCU 0.9 (ESP-12 Module), kemudian lakukan pengaturan parameter board seperti pada Tabel 1.
 
 <div style="text-align:center"><img src="/images/select_board.PNG" height="400" align ="center"/><div/>
-<div style="text-align:right"><img src="/images/configuration_table.PNG" height="150" align ="center"/><div/>
+<img src="/images/configuration_table.PNG" height="150" align ="center">
 
 
 ## Judul-judul proyek yang disertakan pada repository ini adalah:
