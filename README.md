@@ -6,6 +6,21 @@ For more information about each products please visit links below:
 * [ESP8266 ](https://www.arduino.cc/en/Main/ArduinoBoard101) - ESP8266  as the main development board
 * [Espressif System™](http://espressif.com/en) - Official Website for ESP8266 
 
+To do programming on ESP8266 board using arduino IDE you must do the default configuration below :
+* Open the Arduino IDE software, then select a menu **File | Preferences** or you can use keyboard shortcut, **Ctrl and , (comma)** simulatneously 
+
+* Append the additional URL for esp8266 board http://arduino.esp8266.com/stable/package_esp8266com_index.json
+ 
+<div style="text-align:center"><img src="/images/additional_url.png" height="200" align ="center"/><div/>
+
+* Then select a menu **Tools | Board | Board Manager**, type esp8266 in the text box then click the install button
+
+<div style="text-align:center"><img src="/images/esp8266_package.PNG" height="300" align ="center"/><div/>
+
+* Select **NodeMCU 0.9 (ESP-12 Module)**, then set the requirement parameter for board like shows on the table 
+
+<img src="/images/configuration_table.PNG" height="430" align ="center">
+
 ## The titles of the projects which included in this repository are:
 * [01. Blinking and Fading a LED](/01_Blinking_and_Fading_a_LED)
 * [02. Click Counter](/02_Click_Counter)
@@ -26,8 +41,8 @@ Informasi untuk masing-masing produk dapat ditemukan pada link-link di bawah:
 * [ESP8266 ](https://www.arduino.cc/en/Main/ArduinoBoard101) - ESP8266  sebagai development board utama
 * [Espressif System™](http://espressif.com/en) - Website resmi ESP8266 
 
-Untuk melakukan pemrograman pada board ESP8266  menggunakan arduino IDE perlu diperhatikan beberapa konfigurasi berikut :
-* Buka software Arduino IDE, lalu pilih menu **File | Preferences** atau dapat juga dengan menekan tombol Ctrl dan , (tanda baca koma) secara bersamaan pada keyboard
+Untuk melakukan pemrograman pada board ESP8266  menggunakan arduino IDE perlu melakukan konfigurasi default berikut :
+* Buka software Arduino IDE, lalu pilih menu **File | Preferences** atau dapat juga dengan menekan tombol **Ctrl dan , (tanda baca koma)** secara bersamaan pada keyboard
 * Menambahkan alamat URL untuk esp8266 yaitu http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 <div style="text-align:center"><img src="/images/additional_url.png" height="200" align ="center"/><div/>
@@ -36,9 +51,9 @@ Untuk melakukan pemrograman pada board ESP8266  menggunakan arduino IDE perlu di
 
 <div style="text-align:center"><img src="/images/esp8266_package.PNG" height="300" align ="center"/><div/>
 
-* Pilih NodeMCU 0.9 (ESP-12 Module), kemudian lakukan pengaturan parameter board seperti pada tabel
+* Pilih **NodeMCU 0.9 (ESP-12 Module)**, kemudian lakukan pengaturan parameter pada board seperti pada tabel
 
-<img src="/images/configuration_table.PNG" height="450" align ="center">
+<img src="/images/configuration_table.PNG" height="430" align ="center">
 
 
 ## Judul-judul proyek yang disertakan pada repository ini adalah:
