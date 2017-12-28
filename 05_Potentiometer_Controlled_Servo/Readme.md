@@ -10,7 +10,7 @@ If we need to control an output which have more states than on/off, we will have
 ### Assemble the modules following these steps: 
 1. Plug the I/O Expansion Shield to the top of ESP 8266,
 2. Plug the Rotation Sensor to the header on the I/O Expansion Shield labelled **A0**,
-3. Plug the Micro Servo to the header on the I/O Expansion Shield labelled **5**,
+3. Plug the Micro Servo to the header on the I/O Expansion Shield labelled **4**,
 4. Upload the [Potentiometer_Controlled_Servo](/06_Potentiometer_Controlled_Servo/Potentiometer_Controlled_Servo) code into ESP 8266.
 
 If there are no mistakes, Micro Servo movement will be determined by the rotation of Rotation Sensor.
@@ -28,7 +28,7 @@ Pada proyek ini akan dikenalkan penggunaan potensiometer sebagai perangkat input
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
 1. Pasang I/O Expansion Shield di atas ESP 8266,
 2. Hubungkan Rotation Sensor ke header I/O Expansion Shield yang berlabel **A0**,
-3. Hubungkan Micro Servo ke header I/O Expansion Shield yang berlabel **5**,
+3. Hubungkan Micro Servo ke header I/O Expansion Shield yang berlabel **4**,
 4. Upload kode program [Potentiometer_Controlled_Servo](/06_Potentiometer_Controlled_Servo/Potentiometer_Controlled_Servo) ke ESP 8266.
 
 Apabila tidak terdapat kesalahan, gerakan Micro Servo akan ditentukan dari putaran yang diberikan ke Rotation Sensor.
