@@ -7,14 +7,14 @@ For you which already are familiar with Arduino ecosystem, no extra effort will 
 * LED Module (1).
 
 ### Assemble the modules following these steps:
-1. Plug the I/O Expansion Shield to the top of Arduino 101,
-2. Plug the LED Module to the header on the I/O Expansion Shield labelled **9**,
-3. Upload the [Blinking_and_Fading_a_LED](/01_Blinking_and_Fading_a_LED/Blinking_and_Fading_a_LED) code into Arduino 101.
+1. Plug the I/O Expansion Shield to the top of ESP 8266,
+2. Plug the LED Module to the header on the I/O Expansion Shield labelled **5**,
+3. Upload the [Blinking_and_Fading_a_LED](/01_Blinking_and_Fading_a_LED/Blinking_and_Fading_a_LED) code into ESP 8266.
 
 If there are no mistakes, the LED Module should start blinking then increase and fade in its brightness.
 
 # [BAHASA INDONESIA] Proyek 1: Blinking and Fading a LED
-Bagi Anda yang sudah mengenal Arduino beserta pemrogramannya, proyek ini tentu tidak akan sulit untuk dipahami, karena Arduino 101 dikembangkan dengan tingkat kompatibilitas yang tinggi dengan Arduino pada umumnya. Hal tersebut dapat diartikan bahwa (hampir semua) kode program yang bisa berjalan pada modul Arduino akan dapat berjalan pula pada modul Arduino 101. Apabila ini adalah pertama kalinya Anda memprogram modul Arduino, kode program Arduino relatif mudah untuk dipelajari sehingga Anda dapat memahami proses pengendalian pin output dengan cepat.
+Bagi Anda yang sudah mengenal Arduino beserta pemrogramannya, proyek ini tentu tidak akan sulit untuk dipahami, karena ESP 8266 dikembangkan dengan tingkat kompatibilitas yang tinggi dengan Arduino pada umumnya. Hal tersebut dapat diartikan bahwa (hampir semua) kode program yang bisa berjalan pada modul Arduino akan dapat berjalan pula pada modul ESP 8266. Apabila ini adalah pertama kalinya Anda memprogram modul Arduino, kode program Arduino relatif mudah untuk dipelajari sehingga Anda dapat memahami proses pengendalian pin output dengan cepat.
 
 ### Modul-modul yang dibutuhkan pada proyek ini:
 * ESP 8266 (1),
