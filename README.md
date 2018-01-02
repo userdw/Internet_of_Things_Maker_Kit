@@ -43,7 +43,7 @@ Informasi untuk masing-masing produk dapat ditemukan pada link-link di bawah:
 * [ESP8266  Starter Kit](http://digiwarestore.com/en/) - Halaman produk ESP8266  Starter Kit
 * [Espressif System™](http://espressif.com/en) - Website resmi ESP8266 
 
-Untuk melakukan pemrograman pada board ESP8266  menggunakan arduino IDE perlu melakukan konfigurasi default berikut :
+Untuk melakukan pemrograman pada board ESP8266  menggunakan arduino IDE perlu melakukan konfigurasi default berikut ini :
 * Buka software Arduino IDE, lalu pilih menu **File | Preferences** atau dapat juga dengan menekan tombol **Ctrl dan , (tanda baca koma)** secara bersamaan pada keyboard
 * Menambahkan alamat URL untuk esp8266 yaitu http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
