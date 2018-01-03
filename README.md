@@ -6,7 +6,7 @@ For more information about each products please visit links below:
 * [Espressif System™](http://espressif.com/en) - Official Website for ESP8266 
 
 To do programming on ESP8266 board using arduino IDE you must do the default configuration below :
-* Open the Arduino IDE software, then select a menu **File | Preferences** or you can use keyboard shortcut, **Ctrl and , (comma)** simultaneously 
+* Open the Arduino IDE software, then select a menu **File | Preferences** or you can use keyboard shortcut, ```Ctrl``` + ```,``` (comma) simultaneously 
 
 * Append the additional URL for esp8266 board http://arduino.esp8266.com/stable/package_esp8266com_index.json
  
@@ -44,7 +44,7 @@ Informasi untuk masing-masing produk dapat ditemukan pada link-link di bawah:
 * [Espressif System™](http://espressif.com/en) - Website resmi ESP8266 
 
 Untuk melakukan pemrograman pada board ESP8266  menggunakan arduino IDE perlu melakukan konfigurasi default berikut ini :
-* Buka software Arduino IDE, lalu pilih menu **File | Preferences** atau dapat juga dengan menekan tombol **Ctrl dan , (tanda baca koma)** secara bersamaan pada keyboard
+* Buka software Arduino IDE, lalu pilih menu **File | Preferences** atau dapat juga dengan menekan tombol ```Ctrl``` + ```,``` (tanda baca koma) secara bersamaan pada keyboard
 * Menambahkan alamat URL untuk esp8266 yaitu http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 <div style="text-align:center"><img src="/images/additional_url.png" height="200" align ="center"/><div/>
