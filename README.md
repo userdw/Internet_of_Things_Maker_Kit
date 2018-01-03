@@ -32,7 +32,7 @@ To do programming on ESP8266 board using arduino IDE you must do the default con
 * [09. Access point]
 * [10. Web Client]
 * [11. Web Server]
-* [12. Smart Home Automation Kit]
+* [12. Smart Home Automation]
 
 Those projects listed above are aimed as introductory to ESP8266 's features.
 
@@ -70,6 +70,6 @@ Untuk melakukan pemrograman pada board ESP8266  menggunakan arduino IDE perlu me
 * [09. Access point]
 * [10. Web Client]
 * [11. Web Server]
-* [12. Smart Home Automation Kit]
+* [12. Smart Home Automation]
 
 Proyek-proyek yang terdapat pada poin-poin di atas ditujukan sebagai pengantar untuk fitur-fitur ESP8266 .
