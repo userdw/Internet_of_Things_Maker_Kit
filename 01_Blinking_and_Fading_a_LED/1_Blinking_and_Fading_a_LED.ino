@@ -10,9 +10,9 @@
 
 void toggleLED(int times) {
   for (int i = 0; i < times; i++) {
-    digitalWrite(EXP_PIN_4, !digitalRead(EXP_PIN_4));
+    digitalWrite(EXP_PIN_3, !digitalRead(EXP_PIN_3));
     delay(250);
-    digitalWrite(EXP_PIN_4, !digitalRead(EXP_PIN_4));
+    digitalWrite(EXP_PIN_3, !digitalRead(EXP_PIN_3));
     delay(250);
   }
 }
@@ -20,19 +20,19 @@ void toggleLED(int times) {
 void fadeLED(int times) {
   for (int i = 0; i < times; i++) {
     for (int j = 0; j < 256; j++) {
-      analogWrite(EXP_PIN_4, j);
+      analogWrite(EXP_PIN_3, j);
       delay(1);
     }
     for (int j = 255; j >= 0; j--) {
-      analogWrite(EXP_PIN_4, j);
+      analogWrite(EXP_PIN_3, j);
       delay(1);
     }
   }
 }
 
 void setup() {
-  pinMode(EXP_PIN_4, OUTPUT);
-  digitalWrite(EXP_PIN_4, HIGH);
+  pinMode(EXP_PIN_3, OUTPUT);
+  digitalWrite(EXP_PIN_3, HIGH);
 }
 
 void loop() {
