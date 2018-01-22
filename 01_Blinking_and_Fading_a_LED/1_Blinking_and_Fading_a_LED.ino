@@ -1,10 +1,18 @@
-#define LED_MODULE 5
+/************PIN DECLARATION FOR ESP8266 I/O EXPANSION SHIELD************/
+        //Shield  ESP8266//
+#define EXP_PIN_2     0
+#define EXP_PIN_3     4
+#define EXP_PIN_4     5
+#define EXP_PIN_5     12
+#define EXP_PIN_6     13
+#define EXP_PIN_7     15
+/************PIN DECLARATION FOR ESP8266 I/O EXPANSION SHIELD************/
 
 void toggleLED(int times) {
   for (int i = 0; i < times; i++) {
-    digitalWrite(LED_MODULE, !digitalRead(LED_MODULE));
+    digitalWrite(EXP_PIN_4, !digitalRead(EXP_PIN_4));
     delay(250);
-    digitalWrite(LED_MODULE, !digitalRead(LED_MODULE));
+    digitalWrite(EXP_PIN_4, !digitalRead(EXP_PIN_4));
     delay(250);
   }
 }
@@ -12,19 +20,19 @@ void toggleLED(int times) {
 void fadeLED(int times) {
   for (int i = 0; i < times; i++) {
     for (int j = 0; j < 256; j++) {
-      analogWrite(LED_MODULE, j);
+      analogWrite(EXP_PIN_4, j);
       delay(1);
     }
     for (int j = 255; j >= 0; j--) {
-      analogWrite(LED_MODULE, j);
+      analogWrite(EXP_PIN_4, j);
       delay(1);
     }
   }
 }
 
 void setup() {
-  pinMode(LED_MODULE, OUTPUT);
-  digitalWrite(LED_MODULE, HIGH);
+  pinMode(EXP_PIN_4, OUTPUT);
+  digitalWrite(EXP_PIN_4, HIGH);
 }
 
 void loop() {
