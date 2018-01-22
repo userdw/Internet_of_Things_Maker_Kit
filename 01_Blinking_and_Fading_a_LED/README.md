@@ -10,7 +10,7 @@ For you which already are familiar with Arduino ecosystem, no extra effort will 
 
 ### Assemble the modules following these steps:
 1. Plug the I/O Expansion Shield to the top of ESP 8266,
-2. Plug the LED Module to the header on the I/O Expansion Shield labelled **5**,
+2. Plug the LED Module to the header on the I/O Expansion Shield labelled **3**,
 3. Upload the [Blinking_and_Fading_a_LED](/01_Blinking_and_Fading_a_LED/Blinking_and_Fading_a_LED) code into ESP 8266.
 
 If there are no mistakes, the LED Module should start blinking then increase and fade in its brightness.
@@ -27,7 +27,7 @@ Bagi Anda yang sudah mengenal Arduino beserta pemrogramannya, proyek ini tentu t
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
 1. Pasang I/O Expansion Shield di atas ESP 8266,
-2. Hubungkan LED Module ke header I/O Expansion Shield yang berlabel **5**,
+2. Hubungkan LED Module ke header I/O Expansion Shield yang berlabel **3**,
 3. Upload kode program [Blinking_and_Fading_a_LED](/01_Blinking_and_Fading_a_LED/Blinking_and_Fading_a_LED) ke ESP 8266.
 
 Apabila tidak terdapat kesalahan, maka LED Module akan berkedip kemudian tingkat kecerahannya akan berubah.
