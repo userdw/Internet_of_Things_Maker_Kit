@@ -6,6 +6,8 @@ For you which already are familiar with Arduino ecosystem, no extra effort will 
 * I/O Expansion Shield (1),
 * LED Module (1).
 
+<img src="/images/01_blinking_and_fading.png" height="400">
+
 ### Assemble the modules following these steps:
 1. Plug the I/O Expansion Shield to the top of ESP 8266,
 2. Plug the LED Module to the header on the I/O Expansion Shield labelled **5**,
@@ -20,6 +22,8 @@ Bagi Anda yang sudah mengenal Arduino beserta pemrogramannya, proyek ini tentu t
 * ESP 8266 (1),
 * I/O Expansion Shield (1),
 * LED Module (1).
+
+<img src="/images/01_blinking_and_fading.png" height="400">
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
 1. Pasang I/O Expansion Shield di atas ESP 8266,
