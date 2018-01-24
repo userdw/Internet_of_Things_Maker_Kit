@@ -9,7 +9,6 @@
 /************PIN DECLARATION FOR ESP8266 I/O EXPANSION SHIELD************/
 
 #include <Servo.h>
-#define EXP_PIN_7 6
 #define ROTATION_SENSOR A0
 
 Servo sg90;
@@ -23,4 +22,3 @@ void loop() {
   rotationData = map(rotationData, 0, 1023, 0, 180);
   sg90.write(rotationData);
 }
-
