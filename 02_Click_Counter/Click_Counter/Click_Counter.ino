@@ -8,8 +8,6 @@
 #define EXP_PIN_7     15
 /************PIN DECLARATION FOR ESP8266 I/O EXPANSION SHIELD************/
 
-#define EXP_PIN_3 4
-#define EXP_PIN_6 13
 #define DEBOUNCE_DELAY 80
 #define TOGGLE_EXECUTE_DELAY 1500
 
