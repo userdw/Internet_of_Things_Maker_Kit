@@ -1,7 +1,7 @@
 # [ENGLISH] Project 3: Proximity Indicator
 Measuring distance can be done through a lot of methods. One of the most common method to be used is using the reflection of light. In this project you will learn how to use phototransistor to detect an object and get the rough estimation of object's distance. The system in this project will detect the presence of an object. If the object is getting closer, LED will blink faster. On the contrary, if the object is getting further, LED will blink slower.
 
-<img src="/images/03_proximity_indicator.png" height="400">
+
 
 ### In this project you will need:
 * ESP8266 (1),
@@ -23,7 +23,7 @@ If there are no mistakes, LED Module should blink faster as the object gets near
 # [BAHASA INDONESIA] Proyek 3: Proximity Indicator
 Pengukuran jarak dapat dilakukan dengan banyak cara, dimana salah satu metode yang digunakan adalah memanfaatkan sifat pantulan cahaya. Proyek ini bertujuan untuk mendemonstrasikan penggunaan sensor cahaya, yaitu phototransistor dengan ESP8266. Sistem pada proyek ini akan mendeteksi keberadaan dari suatu obyek. Apabila obyek semakin mendekat maka LED akan berkedip semakin cepat. Sebaliknya, apabila obyek semakin menjauh, maka kedipan LED akan semakin lambat.
 
-<img src="/images/03_proximity_indicator.png" height="400">
+
 
 ### Modul-modul yang dibutuhkan pada proyek ini:
 * ESP8266 (1),
