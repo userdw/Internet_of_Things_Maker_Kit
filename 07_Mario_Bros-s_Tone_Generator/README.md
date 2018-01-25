@@ -2,7 +2,7 @@
 # [ENGLISH] Project 7: Mario Bros Tone Generator
 In this project you will be introduced to buzzer. Buzzer is simply a component that will produce sound when you give it a voltage. We actually can change its tone when we change the voltage level. One easy way to change the voltage level is through Pulse Width Modulation (PWM). This project can be further developed to produce more tones, so that we can make more interactive user interface.
 
-<img src="/images/07_mrio_bros_tone_generator.png" height="400">
+<img src="/images/07_mario_bros_tone_generator.png" height="400">
 
 ### In this project you will need:
 * ESP8266 IoT V2.0 (1),
@@ -19,7 +19,7 @@ If there are no mistakes, the system will play Mario Bros tone. The code was mad
 # [BAHASA INDONESIA] Proyek 7: Mario Bros Tone Generator
 Buzzer merupakan komponen yang akan menghasilkan suara ketika diberi tegangan. Kita dapat mengubah nada yang dihasilkan oleh buzzer dengan cara mengubah level tegangan yang diberikan. Salah satu cara yang paling mudah untuk mengubah level tegangan adalah dengan menggunakan Pulse Width Modulation (PWM). Pengembangan yang dapat dilakukan dari sistem proyek ini adalah untuk membuat beberapa macam nada peringatan sebagai user interface, dimana masing-masing nada yang dikeluarkan sistem merepresentasikan hal-hal yang berbeda.
 
-<img src="/images/07_mrio_bros_tone_generator.png" height="400">
+<img src="/images/07_mario_bros_tone_generator.png" height="400">
 
 ### Modul-modul yang dibutuhkan pada proyek ini:
 * ESP8266 IoT V2.0 (1),
