@@ -1,5 +1,5 @@
+//Libraries for DHT22
 #include <DHT.h>
-
 
 /************PIN DECLARATION FOR ESP8266 I/O EXPANSION SHIELD************/
 //Shield  ESP8266//
