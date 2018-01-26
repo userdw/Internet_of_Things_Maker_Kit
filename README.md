@@ -28,7 +28,7 @@ To do programming on ESP8266 board using arduino IDE you must do the default con
 * [05. Ambient Light Monitoring](/05_Ambient_Light_Monitoring)
 * [06. Potentiometer Controlled Servo](/06_Potentiometer_Controlled_Servo)
 * [07. Mario Bros' Tone Generator](/07_Mario_Bros_Tone_Generator)
-* [08. Weather Station]
+* [08. Temperature and Humadity Measurement]
 * [09. Access point]
 * [10. Web Client]
 * [11. Web Server]
@@ -66,7 +66,7 @@ Untuk melakukan pemrograman pada board ESP8266  menggunakan arduino IDE perlu me
 * [05. Ambient Light Monitoring](/05_Ambient_Light_Monitoring)
 * [06. Potentiometer Controlled Servo](/06_Potentiometer_Controlled_Servo)
 * [07. Mario Bros' Tone Generator](/07_Mario_Bros_Tone_Generator)
-* [08. Weather Station]
+* [08. Temperature and Humadity Measurement]
 * [09. Access point]
 * [10. Web Client]
 * [11. Web Server]
