@@ -29,12 +29,12 @@ To do programming on ESP8266 board using arduino IDE you must do the default con
 * [06. Potentiometer Controlled Servo](/06_Potentiometer_Controlled_Servo)
 * [07. Mario Bros' Tone Generator](/07_Mario_Bros_Tone_Generator)
 * [08. Temperature and Humadity Measurement](/08_Temperature_and_Humidity_Measurement)
-* [09. Smart Access](/09_)
-* [10. Green Technology](/10_)
-* [11. Access point](/11_)
-* [12. Web Client](/12_)
-* [13. Web Server](/13_)
-* [14. Smart Home Automation](/14_)
+* [09. Smart Access]
+* [10. Green Technology]
+* [11. Access point]
+* [12. Web Client]
+* [13. Web Server]
+* [14. Smart Home Automation]
 
 Those projects listed above are aimed as introductory to ESP8266 's features.
 
@@ -69,11 +69,11 @@ Untuk melakukan pemrograman pada board ESP8266  menggunakan arduino IDE perlu me
 * [06. Potentiometer Controlled Servo](/06_Potentiometer_Controlled_Servo)
 * [07. Mario Bros' Tone Generator](/07_Mario_Bros_Tone_Generator)
 * [08. Temperature and Humadity Measurement](/08_Temperature_and_Humidity_Measurement)
-* [09. Smart Access](/09_)
-* [10. Green Technology](/10_)
-* [11. Access point](/11_)
-* [12. Web Client](/12_)
-* [13. Web Server](/13_)
-* [14. Smart Home Automation](/14_)
+* [09. Smart Access]
+* [10. Green Technology]
+* [11. Access point]
+* [12. Web Client]
+* [13. Web Server]
+* [14. Smart Home Automation]
 
 Proyek-proyek yang terdapat pada poin-poin di atas ditujukan sebagai pengantar untuk fitur-fitur ESP8266 .
