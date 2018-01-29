@@ -14,7 +14,7 @@ This project is aimed to give you a simple example about how to use microcontrol
 2. Plug the Soil Moisture Sensor to the header on the I/O Expansion Shield labelled **ADC**,
 3. Upload the [Green Technology](/10_Green_Technology/Green_Technology) code into ESP8266 IoT V2.0.
 
-If there are no mistakes, system will start to measure the ambient temperature every 2 seconds. 
+If there are no mistakes, system will start to measure the ambient temperature every 1 seconds. 
 
 # [BAHASA INDONESIA] Proyek 8: Temperature and Humidity Measurement
 Proyek ini bertujuan untuk memberikan sebuah contoh sederhana tentang cara menggunakan mikrokontroler sebagai prosesor utama untuk mengendalikan sistem irigasi/pengairan sederhana di rumah atau taman. Dalam proyek ini, kita akan memantau tingkat kelembaban dari tanah. Sistem dalam proyek ini akan memanfaatkan sensor kelembaban tanah dan menampilkannya ke serial monitor dari Arduino IDE.
