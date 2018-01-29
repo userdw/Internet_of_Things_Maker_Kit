@@ -50,6 +50,5 @@ if (client.available()) {
     Serial.println();
     Serial.println("disconnecting from server.");
     client.stop();
-    //while (true);
   }  
 }
