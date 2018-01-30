@@ -30,7 +30,7 @@ To do programming on ESP8266 board using arduino IDE you must do the default con
 * [07. Mario Bros' Tone Generator](/07_Mario_Bros_Tone_Generator)
 * [08. Temperature and Humadity Measurement](/08_Temperature_and_Humidity_Measurement)
 * [09. Smart Access]
-* [10. Green Technology]
+* [10. Green Technology](/10_Green_Technology)
 * [11. Access point]
 * [12. Web Client]
 * [13. Web Server]
@@ -70,7 +70,7 @@ Untuk melakukan pemrograman pada board ESP8266  menggunakan arduino IDE perlu me
 * [07. Mario Bros' Tone Generator](/07_Mario_Bros_Tone_Generator)
 * [08. Temperature and Humadity Measurement](/08_Temperature_and_Humidity_Measurement)
 * [09. Smart Access]
-* [10. Green Technology]
+* [10. Green Technology](/10_Green_Technology)
 * [11. Access point]
 * [12. Web Client]
 * [13. Web Server]
