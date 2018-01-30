@@ -1,8 +1,11 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
 
-/************PIN DECLARATION FOR ESP8266 I/O EXPANSION SHIELD************/
-        //Shield  ESP8266//
+/*------------PIN DECLARATION FOR ESP8266 I/O EXPANSION SHIELD------------
+        I/O         ORIGINAL
+        Expansion     PIN
+        Shield      ESP8266
+--------------------------------------------------------------------------*/
 #define EXP_PIN_2     0
 #define EXP_PIN_3     4  //Digital Push Button
 #define EXP_PIN_4     5
@@ -10,7 +13,7 @@
 #define EXP_PIN_6     13 
 #define EXP_PIN_7     15
 #define EXP_PIN_ADC   A0
-/************PIN DECLARATION FOR ESP8266 I/O EXPANSION SHIELD************/
+/*------------PIN DECLARATION FOR ESP8266 I/O EXPANSION SHIELD------------*/
 
 ESP8266WebServer server(80);
 
