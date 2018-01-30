@@ -1,4 +1,3 @@
-
 /*------------PIN DECLARATION FOR ESP8266 I/O EXPANSION SHIELD------------
         I/O         ORIGINAL
         Expansion     PIN
