@@ -31,7 +31,7 @@ To do programming on ESP8266 board using arduino IDE you must do the default con
 * [08. Temperature and Humadity Measurement](/08_Temperature_and_Humidity_Measurement)
 * [09. Smart Access]
 * [10. Green Technology](/10_Green_Technology)
-* [11. Access point]
+* [11. Access point](/11_Access_Point)
 * [12. Web Client]
 * [13. Web Server]
 * [14. Smart Home Automation]
@@ -71,7 +71,7 @@ Untuk melakukan pemrograman pada board ESP8266  menggunakan arduino IDE perlu me
 * [08. Temperature and Humadity Measurement](/08_Temperature_and_Humidity_Measurement)
 * [09. Smart Access]
 * [10. Green Technology](/10_Green_Technology)
-* [11. Access point]
+* [11. Access point](/11_Access_Point)
 * [12. Web Client]
 * [13. Web Server]
 * [14. Smart Home Automation]
