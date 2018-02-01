@@ -29,7 +29,7 @@ To do programming on ESP8266 board using arduino IDE you must do the default con
 * [06. Potentiometer Controlled Servo](/06_Potentiometer_Controlled_Servo)
 * [07. Mario Bros' Tone Generator](/07_Mario_Bros_Tone_Generator)
 * [08. Temperature and Humadity Measurement](/08_Temperature_and_Humidity_Measurement)
-* [09. Smart Access]
+* [09. Smart Access](/09_Smart_Access)
 * [10. Green Technology](/10_Green_Technology)
 * [11. Access point](/11_Access_Point)
 * [12. Web Client]
@@ -69,7 +69,7 @@ Untuk melakukan pemrograman pada board ESP8266  menggunakan arduino IDE perlu me
 * [06. Potentiometer Controlled Servo](/06_Potentiometer_Controlled_Servo)
 * [07. Mario Bros' Tone Generator](/07_Mario_Bros_Tone_Generator)
 * [08. Temperature and Humadity Measurement](/08_Temperature_and_Humidity_Measurement)
-* [09. Smart Access]
+* [09. Smart Access](/09_Smart_Access)
 * [10. Green Technology](/10_Green_Technology)
 * [11. Access point](/11_Access_Point)
 * [12. Web Client]
