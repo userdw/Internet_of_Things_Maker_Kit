@@ -6,7 +6,7 @@ This project will show you how to write data to your rfid tag(Mifare Card and Ke
 
 The system in this project will utilize the MFRC522 and display it to serial monitor from Arduino IDE like picture shown below.
 
-<img src="/images/write_data.PNG" height="400">
+<img src="/images/write_data2.PNG" height="400">
 
 ### In this project you will need:
 * ESP8266 IoT V2.0 (1),
@@ -25,7 +25,7 @@ Pada proyek ini akan menunjukkan cara untuk menuliskan data ke rfid tag anda(Mif
 
 Sistem dalam proyek ini akan menggunakan MFRC522 dan menampilkannya ke serial monitor dari Arduino IDE.
 
-<img src="/images/write_data.PNG" height="400">
+<img src="/images/write_data2.PNG" height="400">
 
 ### Modul-modul yang dibutuhkan pada proyek ini:
 * ESP8266 IoT V2.0 (1),
