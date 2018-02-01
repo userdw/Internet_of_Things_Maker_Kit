@@ -11,7 +11,6 @@
    SPI SCK     SCK          13            SCL
 */
 
-#include <SPI.h>
 #include <MFRC522.h>
 
 constexpr uint8_t RST_PIN = 5;          // Configurable, see typical pin layout above
