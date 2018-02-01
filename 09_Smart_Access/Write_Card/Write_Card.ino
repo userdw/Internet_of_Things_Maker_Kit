@@ -1,18 +1,5 @@
-/*
-   -------------------------------------------------
-               MFRC522      Arduino       ESP8266   
-               Reader/PCD   Uno/101       IoT      
-   Signal      Pin          Pin           Pin       
-   -------------------------------------------------
-   RST/Reset   RST          9             5
-   SPI SS      SDA(SS)      10            15
-   SPI MOSI    MOSI         11            12
-   SPI MISO    MISO         12            13
-   SPI SCK     SCK          13            SCL
-*/
-
 #include <MFRC522.h>                       //include the RFID reader library
-
+#include <SPI.h>                           //include SPI Library
 #define SS_PIN 15                          //slave select pin esp8266
 #define RST_PIN 5                          //reset pin esp8266
 MFRC522 mfrc522(SS_PIN, RST_PIN);          // instatiate a MFRC522 reader object.
@@ -128,5 +115,5 @@ int readBlock(int blockNumber, byte arrayAddress[])
     Serial.print("MIFARE_read() failed: ");
     return 4;//return "4" as error message
   }
-  Serial.println("Saldo was read");
+  Serial.println("Amount was read");
 }
