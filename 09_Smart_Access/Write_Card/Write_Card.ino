@@ -64,7 +64,7 @@ void loop()
   //  mfrc522.PICC_DumpToSerial(&(mfrc522.uid)); //Uncomment this to show Data Block form MIFARE 1K
   
   readBlock(block, readbackblock);//read the block back
-  Serial.print("Read Saldo: ");
+  Serial.print("Read Money: ");
   for (int j = 0 ; j < 16 ; j++) //print the block contents
   {
     Serial.write (readbackblock[j]);//Serial.write() transmits the ASCII numbers as human readable characters to serial monitor
