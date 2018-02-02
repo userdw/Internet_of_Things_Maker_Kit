@@ -13,7 +13,7 @@ The system in this project will utilize the [MFRC522](https://www.nxp.com/docs/e
 
 ### Assemble the modules following these steps:
 1. Connecting the jumper cable from RFID reader to ESP8266 IoT V2.0 like the image shown above.
-3. Upload the [Smart Access](/09_Smart_Access/Smart Access) code into ESP8266 IoT V2.0.
+3. Upload the [Smart Access](/09_Smart_Access/Smart_Access) code into ESP8266 IoT V2.0.
 
 If there are no mistakes, system will start to read your tag. 
 
@@ -32,4 +32,4 @@ Sistem dalam proyek ini akan menggunakan [MFRC522](https://www.nxp.com/docs/en/d
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
 1. Hubungkan RFID reader dengan kabel jumper ke ESP8266 IoT V2.0, seperti gambar diatas
-3. Upload kode program [Smart Access](/09_Smart_Access/Smart Access) ke ESP8266 IoT V2.0.
+3. Upload kode program [Smart Access](/09_Smart_Access/Smart_Access) ke ESP8266 IoT V2.0.
