@@ -1,5 +1,5 @@
 
-# [ENGLISH] Project 09: Smart Acess -> Read Card
+# [ENGLISH] Project 09: Smart Acess -> Write Card
 This project will show you how to write data to your rfid tag(Mifare Card and Key), in this example we will make an e-Money.
 
 <img src="/images/rc522.png" height="250">
@@ -18,7 +18,7 @@ The system in this project will utilize the MFRC522 and display it to serial mon
 
 If there are no mistakes, system will start to read your tag. 
 
-# [BAHASA INDONESIA] Proyek 09: Smart Acess -> Read Card
+# [BAHASA INDONESIA] Proyek 09: Smart Acess -> Write Card
 Pada proyek ini akan menunjukkan cara untuk menuliskan data ke rfid tag anda(Mifare Card and Key), pada contoh ini kita akan membuat sebuah e-Money. 
 
 <img src="/images/rc522.png" height="250">
