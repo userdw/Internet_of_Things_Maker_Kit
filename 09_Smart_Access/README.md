@@ -4,7 +4,7 @@ Radio Frequency Identification (RFID) technology is an automated data capture te
 * **Read Card**		  : describe about how to read rfid tag(card and key)
 * **Smart Access**	: describe about how to read rfid tag and stored it ro registered user device
 * **Smart Token**	  : describe about how to make a simple system like e-Money
-* **Write Card**	  : describe about how to write data into rfid tags
+* **Write Card**	  : describe about how to write data into rfid tag.
 
 <img src="/images/09_smart_access_2.png" height="400">
 
