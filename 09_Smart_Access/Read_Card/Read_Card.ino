@@ -6,8 +6,8 @@
    -------------------------------------------------
    RST/Reset   RST          9             5
    SPI SS      SDA(SS)      10            15
-   SPI MOSI    MOSI         11            12
-   SPI MISO    MISO         12            13
+   SPI MOSI    MOSI         11            13
+   SPI MISO    MISO         12            12
    SPI SCK     SCK          13            SCL
 */
 
