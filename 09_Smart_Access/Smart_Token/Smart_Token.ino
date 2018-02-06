@@ -13,32 +13,30 @@
 
 #include <MFRC522.h>//include the RFID reader library
 #include <SPI.h>
-#define SS_PIN 15                     //slave select pin
-#define RST_PIN 5                     //reset pin
-MFRC522 mfrc522(SS_PIN, RST_PIN);     // instatiate a MFRC522 reader object.
-MFRC522::MIFARE_Key key;              //create a MIFARE_Key struct named 'key', which will hold the card information
+#define SS_PIN 15                             //slave select pin
+#define RST_PIN 5                             //reset pin
+MFRC522 mfrc522(SS_PIN, RST_PIN);             // instatiate a MFRC522 reader object.
+MFRC522::MIFARE_Key key;                      //create a MIFARE_Key struct named 'key', which will hold the card information
 
-String stored_value;
-int block = 62, size_value, jumlah ;;                   //this is the block number we will write into and then read. Do not write into 'sector trailer' block, since this can make the block unusable.
-byte readbackblock[18];             //This array is used for reading out a block. The MIFARE_Read method requires a buffer that is at least 18 bytes to hold the 16 bytes of a block.
-byte clear_blockcontent[16] = {0, 0, 0, 0,
+String stored_value, jumlahStr;
+int block = 62, size_value, jumlah ;;         //this is the block number we will write into and then read. Do not write into 'sector trailer' block, since this can make the block unusable.
+byte readbackblock[18];                       //This array is used for reading out a block. The MIFARE_Read method requires a buffer that is at least 18 bytes to hold the 16 bytes of a block.
+byte clear_blockcontent[16] = {0, 0, 0, 0,    //This Array for clear the block content
                                0, 0, 0, 0,
                                0, 0, 0, 0,
                                0, 0, 0, 0
                               };
 char charBuf[9];
-byte data[16] = {charBuf[0], charBuf[1],
+byte data[16] = {charBuf[0], charBuf[1],      //This Array used for save value as buffer
                  charBuf[2], charBuf[3],
                  charBuf[4], charBuf[5],
                  charBuf[6], charBuf[7]
                 };
-byte blockcontent[16] = {data[0], data[1],
+byte blockcontent[16] = {data[0], data[1],    //This Array used for save data before execute the writeblock method
                          data[2], data[3],
                          data[4], data[5],
                          data[6], data[7]
                         };
-String jumlahStr;
-
 void setup() {
   Serial.begin(9600);        // Initialize serial communications with the PC
   SPI.begin();
@@ -72,68 +70,52 @@ void loop()
   readBlock(block, readbackblock);//read the block back
   Serial.print("Read money: ");
   stored_value = "";
-  for (int j = 0 ; j < 16 ; j++) //print the block contents
+  for (int j = 0 ; j < 16 ; j++)            //print the block contents
   {
-    Serial.write (readbackblock[j]);//Serial.write() transmits the ASCII numbers as human readable characters to serial monitor
-    stored_value = stored_value + char(readbackblock[j]);
+    Serial.write (readbackblock[j]);        //Serial.write() transmits the ASCII numbers as human readable characters to serial monitor
+    stored_value = stored_value +
+                   char(readbackblock[j]);  //Convert value from array into character
   }
   size_value = sizeof(stored_value);
   jumlah = stored_value.toInt() - 1000;     // 1000 is amount to substract with amount that has been read
+  Serial.println(" ");
+  jumlahStr = String(jumlah);
+  jumlahStr.toCharArray(charBuf, 9);
+  Serial.print("Last Amount : ");
+  Serial.println(charBuf);
   if (jumlah <= 0) {
     jumlah = 0;
-    Serial.println(" ");
     writeBlock(block, clear_blockcontent);
     Serial.println("Your Amount : 0");
     Serial.println("Please refill your amount first");
   }
+  //  Execute when value > 99.999
   else if (jumlah < 99999 && jumlah != 0) {
-    Serial.println(" ");
-    jumlahStr = String(jumlah);
-    jumlahStr.toCharArray(charBuf, 9);
-    Serial.print("Last Amount : ");
-    Serial.println(charBuf);
     if (data[5] == 0 || data[6] == 0) {
-      byte data_custom[16] = {charBuf[0], charBuf[1],
-                              charBuf[2], charBuf[3],
-                              charBuf[4], 0,
-                              0, 0
+      byte data_custom[16] = {charBuf[0], charBuf[1], charBuf[2],
+                              charBuf[3], charBuf[4], 0, 0, 0
                              };
       writeBlock(block, data_custom);
     } else {
-      Serial.println("Read");
       read_amount();
     }
   }
+  //  Execute when 999.999 < value > 99.999
   else if (jumlah < 999999 && jumlah > 99999) {
-    Serial.println(" ");
-    jumlahStr = String(jumlah);
-    jumlahStr.toCharArray(charBuf, 9);
-    Serial.print("Last Amount : ");
-    Serial.println(charBuf);
     if (data[6] == 0 || data[7] == 0) {
-      byte data_custom[16] = {charBuf[0], charBuf[1],
-                              charBuf[2], charBuf[3],
-                              charBuf[4], charBuf[5],
+      byte data_custom[16] = {charBuf[0], charBuf[1], charBuf[2],
+                              charBuf[3], charBuf[4], charBuf[5],
                               0, 0
                              };
       writeBlock(block, data_custom);
     } else {
-      Serial.println("Read");
       read_amount();
     }
   }
   else  {
-    // Read & Write Block if Value > 10000
-    Serial.println(" ");
-    jumlahStr = String(jumlah);
-    jumlahStr.toCharArray(charBuf, 9);
-    Serial.print("Last Amount : ");
-    Serial.println(charBuf);
     if (data[8] == 0) {
-      byte data_custom[16] = {charBuf[0], charBuf[1],
-                              charBuf[2], charBuf[3],
-                              charBuf[4], charBuf[5],
-                              charBuf[6], charBuf[7]
+      byte data_custom[16] = {charBuf[0], charBuf[1], charBuf[2], charBuf[3],
+                              charBuf[4], charBuf[5], charBuf[6], charBuf[7]
                              };
       writeBlock(block, data_custom);
     } else {
