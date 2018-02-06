@@ -1,10 +1,9 @@
-
 # [ENGLISH] Project 09: Smart Acess -> Read Card
 This project will show you the original NUID (Non Unique ID) for the access key you have [Mifare 1K Card and Key](/09_Smart_Access/Datasheet). 
 
 <img src="/images/rc522.png" height="250">
 
-The system in this project will utilize the MFRC522 and display it to serial monitor from Arduino IDE like picture shown below.
+The system in this project will utilize the [MFRC522](https://www.nxp.com/docs/en/data-sheet/MF1S50YYX_V1.pdf)  and display it to serial monitor from Arduino IDE like picture shown below.
 
 <img src="/images/read_nuid_rc522.PNG" height="400">
 
@@ -23,7 +22,7 @@ Proyek ini akan menampilkan NUID (Non Unique ID) asli dari perangkat Smart Acces
 
 <img src="/images/rc522.png" height="250">
 
-Sistem dalam proyek ini akan menggunakan MFRC522 dan menampilkannya ke serial monitor dari Arduino IDE.
+Sistem dalam proyek ini akan menggunakan [MFRC522](https://www.nxp.com/docs/en/data-sheet/MF1S50YYX_V1.pdf)  dan menampilkannya ke serial monitor dari Arduino IDE.
 
 <img src="/images/read_nuid_rc522.PNG" height="400">
 
