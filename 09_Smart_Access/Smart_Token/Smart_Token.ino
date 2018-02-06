@@ -6,8 +6,8 @@
    -------------------------------------------------
    RST/Reset   RST          9             5
    SPI SS      SDA(SS)      10            15
-   SPI MOSI    MOSI         11            12
-   SPI MISO    MISO         12            13
+   SPI MOSI    MOSI         11            13
+   SPI MISO    MISO         12            12
    SPI SCK     SCK          13            SCL
 */
 
@@ -19,23 +19,34 @@ MFRC522 mfrc522(SS_PIN, RST_PIN);     // instatiate a MFRC522 reader object.
 MFRC522::MIFARE_Key key;              //create a MIFARE_Key struct named 'key', which will hold the card information
 
 String stored_value;
-int block = 62;                     //this is the block number we will write into and then read. Do not write into 'sector trailer' block, since this can make the block unusable.
+int block = 62, size_value, jumlah ;;                   //this is the block number we will write into and then read. Do not write into 'sector trailer' block, since this can make the block unusable.
 byte readbackblock[18];             //This array is used for reading out a block. The MIFARE_Read method requires a buffer that is at least 18 bytes to hold the 16 bytes of a block.
 byte clear_blockcontent[16] = {0, 0, 0, 0,
                                0, 0, 0, 0,
                                0, 0, 0, 0,
                                0, 0, 0, 0
                               };
+char charBuf[9];
+byte data[16] = {charBuf[0], charBuf[1],
+                 charBuf[2], charBuf[3],
+                 charBuf[4], charBuf[5],
+                 charBuf[6], charBuf[7]
+                };
+byte blockcontent[16] = {data[0], data[1],
+                         data[2], data[3],
+                         data[4], data[5],
+                         data[6], data[7]
+                        };
+String jumlahStr;
 
 void setup() {
   Serial.begin(9600);        // Initialize serial communications with the PC
   SPI.begin();
   mfrc522.PCD_Init();        // Init MFRC522 card (in case you wonder what PCD means: proximity coupling device)
   Serial.println("Scan a MIFARE Classic card");
-  
-  // Prepare the security key for the read and write functions - all six key bytes are set to 0xFF at chip delivery from the factory.
+
+  // Prepare the security key for the read and write functions
   // Since the cards in the kit are new and the keys were never defined, they are 0xFF
-  // if we had a card that was programmed by someone else, we would need to know the key to be able to access it. This key would then need to be stored in 'key' instead.
 
   for (byte i = 0; i < 6; i++) {
     key.keyByte[i] = 0xFF;//keyByte is defined in the "MIFARE_Key" 'struct' definition in the .h file of the library
@@ -55,10 +66,8 @@ void loop()
   if ( ! mfrc522.PICC_ReadCardSerial()) {//if PICC_ReadCardSerial returns 1, the "uid" struct (see MFRC522.h lines 238-45)) contains the ID of the read card.
     return;//if it returns a '0' something went wrong and we return to the start of the loop
   }
-
   Serial.println("Card selected");
   /*****************************************writing and reading a block on the card**********************************************************************/
-  //  mfrc522.PICC_DumpToSerial(&(mfrc522.uid));
 
   readBlock(block, readbackblock);//read the block back
   Serial.print("Read money: ");
@@ -68,48 +77,68 @@ void loop()
     Serial.write (readbackblock[j]);//Serial.write() transmits the ASCII numbers as human readable characters to serial monitor
     stored_value = stored_value + char(readbackblock[j]);
   }
-  Serial.println("");
-  int size_value = sizeof(stored_value);
-  int jumlah = stored_value.toInt() - 1000;     // 1000 is amount to substract with amount that has been read
+  size_value = sizeof(stored_value);
+  jumlah = stored_value.toInt() - 1000;     // 1000 is amount to substract with amount that has been read
   if (jumlah <= 0) {
     jumlah = 0;
+    Serial.println(" ");
     writeBlock(block, clear_blockcontent);
     Serial.println("Your Amount : 0");
     Serial.println("Please refill your amount first");
-  } else {
-    String jumlahStr = String(jumlah);
-    char charBuf[9];
+  }
+  else if (jumlah < 99999 && jumlah != 0) {
+    Serial.println(" ");
+    jumlahStr = String(jumlah);
     jumlahStr.toCharArray(charBuf, 9);
-    byte data[16] = {charBuf[0], charBuf[1],
-                     charBuf[2], charBuf[3],
-                     charBuf[4], charBuf[5],
-                     charBuf[6], charBuf[7]
-                    };
-
     Serial.print("Last Amount : ");
     Serial.println(charBuf);
-    if (data[4] == 0 || data[5] == 0 || data[6] == 0) {
+    if (data[5] == 0 || data[6] == 0) {
       byte data_custom[16] = {charBuf[0], charBuf[1],
                               charBuf[2], charBuf[3],
-                              0, 0,
+                              charBuf[4], 0,
                               0, 0
                              };
       writeBlock(block, data_custom);
     } else {
-      //an array with 16 bytes to be written into one of the 64 card blocks is defined !!!
-      byte blockcontent[16] = {data[0], data[1],
-                               data[2], data[3],
-                               data[4], data[5],
-                               data[6], data[7]
-                              };
+      Serial.println("Read");
+      read_amount();
+    }
+  }
+  else if (jumlah < 999999 && jumlah > 99999) {
+    Serial.println(" ");
+    jumlahStr = String(jumlah);
+    jumlahStr.toCharArray(charBuf, 9);
+    Serial.print("Last Amount : ");
+    Serial.println(charBuf);
+    if (data[6] == 0 || data[7] == 0) {
+      byte data_custom[16] = {charBuf[0], charBuf[1],
+                              charBuf[2], charBuf[3],
+                              charBuf[4], charBuf[5],
+                              0, 0
+                             };
+      writeBlock(block, data_custom);
+    } else {
+      Serial.println("Read");
+      read_amount();
+    }
+  }
+  else  {
+    // Read & Write Block if Value > 10000
+    Serial.println(" ");
+    jumlahStr = String(jumlah);
+    jumlahStr.toCharArray(charBuf, 9);
+    Serial.print("Last Amount : ");
+    Serial.println(charBuf);
+    if (data[8] == 0) {
+      byte data_custom[16] = {charBuf[0], charBuf[1],
+                              charBuf[2], charBuf[3],
+                              charBuf[4], charBuf[5],
+                              charBuf[6], charBuf[7]
+                             };
+      writeBlock(block, data_custom);
+    } else {
       writeBlock(block, blockcontent);
-      readBlock(block, readbackblock);//read the block back
-      Serial.print("Second read block: ");
-      for (int j = 0 ; j < 16 ; j++) //print the block contents
-      {
-        Serial.write (readbackblock[j]);//Serial.write() transmits the ASCII numbers as human readable characters to serial monitor
-      }
-      Serial.println("");
+      read_amount();
     }
   }
   ESP.wdtDisable();
@@ -121,6 +150,14 @@ void loop()
 
   // Stop encryption on PCD
   mfrc522.PCD_StopCrypto1();
+  Serial.println("");
+}
+void read_amount() {
+  readBlock(block, readbackblock);//read the block back
+  for (int j = 0 ; j < 16 ; j++) //print the block contents
+  {
+    Serial.write (readbackblock[j]);//Serial.write() transmits the ASCII numbers as human readable characters to serial monitor
+  }
   Serial.println("");
 }
 
@@ -166,7 +203,7 @@ int readBlock(int blockNumber, byte arrayAddress[])
     Serial.print("PCD_Authenticate() failed (read): ");
     return 3;//return "3" as error message
   }
-  
+
   /*****************************************reading a block***********************************************************/
 
   byte buffersize = 18;//we need to define a variable with the read buffer size, since the MIFARE_Read method below needs a pointer to the variable that contains the size...
@@ -177,4 +214,3 @@ int readBlock(int blockNumber, byte arrayAddress[])
   }
   Serial.println("Block was read");
 }
-
