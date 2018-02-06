@@ -2,7 +2,7 @@
 Radio Frequency Identification (RFID) technology is an automated data capture technology that identifies labeled or tagged objects wirelessly. The system consists of an RFID tag and an RFID tag reader that relays the information on the tag, in digital form, to a computer system. Unlike bar-code labels, which can only function if the bar-code is oriented towards the scanner and the scanner “sees” the bar-code.  while RFID tags can  work within multiple feet distance of a querying reader (depending on type from the tag), and multiple tags can be read at once. In this project we will show how to build a simple Smart Access System and Smart Token System . The system in this project will utilize the [MFRC522](https://www.nxp.com/docs/en/data-sheet/MF1S50YYX_V1.pdf) and display it to serial monitor from Arduino IDE. There is 4 project inside of Smart Access below :
 
 * **Read Card**		  : describe about how to read rfid tag(card and key)
-* **Smart Access**	: describe about how to read rfid tag and stored it ro registered user device
+* **Smart Access**	  : describe about how to read rfid tag and stored it ro registered user device
 * **Smart Token**	  : describe about how to make a simple system like e-Money
 * **Write Card**	  : describe about how to write data into rfid tag.
 
