@@ -1,6 +1,6 @@
 
 # [ENGLISH] Project 09: Smart Acess -> Read Card
-This project will show you the original NUID for the access key you have (Mifare Card and Key). 
+This project will show you the original NUID (Non Unique ID) for the access key you have [Mifare 1K Card and Key](/09_Smart_Access/Datasheet). 
 
 <img src="/images/rc522.png" height="250">
 
@@ -19,7 +19,7 @@ The system in this project will utilize the MFRC522 and display it to serial mon
 If there are no mistakes, system will start to read your tag. 
 
 # [BAHASA INDONESIA] Proyek 09: Smart Acess -> Read Card
-Proyek ini akan menampilkan NUID asli untuk perangkat Smart Access yang anda miliki (kartu dan kunci Mifare ).
+Proyek ini akan menampilkan NUID (Non Unique ID) asli dari perangkat Smart Access yang anda miliki [kartu Mifare 1K dan kunci Mifare](/09_Smart_Access/Datasheet). .
 
 <img src="/images/rc522.png" height="250">
 
