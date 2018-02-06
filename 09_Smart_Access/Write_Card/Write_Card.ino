@@ -20,7 +20,7 @@ MFRC522::MIFARE_Key key;                   //create a MIFARE_Key struct named 'k
 
 
 int block = 62;                     //this is the block number we will write into and then read. Do not write into 'sector trailer' block, since this can make the block unusable.
-byte blockcontent[16] = {"50000"};  //an array with 16 bytes to be written into one of the 64 card blocks is defined!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+byte blockcontent[16] = {"5000"};  //an array with 16 bytes to be written into one of the 64 card blocks is defined!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 /*byte blockcontent[16] = {0,0,0,0,
                           0, 0, 0, 0,
                           0, 0, 0, 0,
