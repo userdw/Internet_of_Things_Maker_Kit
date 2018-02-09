@@ -7,8 +7,8 @@
         Shield      ESP8266
   --------------------------------------------------------------------------*/
 #define EXP_PIN_2     0
-#define EXP_PIN_3     4  //Digital Push Button
-#define EXP_PIN_4     5
+#define EXP_PIN_3     4  
+#define EXP_PIN_4     5   //LED Built in ESP8266
 #define EXP_PIN_5     12
 #define EXP_PIN_6     13
 #define EXP_PIN_7     15
@@ -17,8 +17,8 @@
 
 ESP8266WebServer server(80);
 
-char ssid[] = "IEDW_Direct";
-char pass[] = "telkomdirectwifi";
+char ssid[] = "Your SSID";
+char pass[] = "Your Password";
 String webPage = "";
 
 void setup(void) {
