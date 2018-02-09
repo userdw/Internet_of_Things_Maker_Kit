@@ -6,6 +6,8 @@ ESP-8266 IoT seems to be working as a web browser to retrieve the source page fr
 ### In this project you will need:
 * ESP8266 IoT V2.0 (1).
 
+If there are no mistakes and coonection succes, it will be displayed on Terminal software.
+
 # [BAHASA INDONESIA] Proyek 12: Web Client
 ESP-8266 IoT seolah-olah akan berfungsi sebagai web browser untuk mengambil halaman sumber dari sebuah website dan kemudian menampilkannya ke perangkat lunak Terminal. Pada proyek ini kita akan mencoba mengakses alamat url https://www.arduino.cc/asciilogo.txt
 
@@ -14,5 +16,6 @@ ESP-8266 IoT seolah-olah akan berfungsi sebagai web browser untuk mengambil hala
 ### Modul-modul yang dibutuhkan pada proyek ini:
 * ESP8266 IoT V2.0 (1).
 
+Apabila tidak terdapat kesalahan dan koneksi sukes, maka akan ditampilkan ke software Terminal.
 
 
