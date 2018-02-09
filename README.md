@@ -32,7 +32,7 @@ To do programming on ESP8266 board using arduino IDE you must do the default con
 * [09. Smart Access](/09_Smart_Access)
 * [10. Green Technology](/10_Green_Technology)
 * [11. Access point](/11_Access_Point)
-* [12. Web Client]
+* [12. Web Client](/12_Web_Client)
 * [13. Web Server]
 * [14. Smart Home Automation]
 
@@ -72,7 +72,7 @@ Untuk melakukan pemrograman pada board ESP8266  menggunakan arduino IDE perlu me
 * [09. Smart Access](/09_Smart_Access)
 * [10. Green Technology](/10_Green_Technology)
 * [11. Access point](/11_Access_Point)
-* [12. Web Client]
+* [12. Web Client](/12_Web_Client)
 * [13. Web Server]
 * [14. Smart Home Automation]
 
