@@ -1,8 +1,8 @@
-# [ENGLISH] Internet_of_Think_Maker_Kit
-This repository has been created as the companion for Internet_of_Think_Maker_Kit.
-Internet_of_Think_Maker_Kit itself is a suitable start point for both hobbyist and academist alike to start exploring the new era for industrial version 4.0 called Internet of Things (IoT).
+# [ENGLISH] Internet_of_Things_Maker_Kit
+This repository has been created as the companion for Internet_of_Things_Maker_Kit.
+Internet_of_Things_Maker_Kit itself is a suitable start point for both hobbyist and academist alike to start exploring the new era for industrial version 4.0 called Internet of Things (IoT).
 For more information about each products please visit links below:
-* [Internet_of_Think_Maker_Kit](http://digiwarestore.com/en/) - Internet_of_Think_Maker_Kit's product page
+* [Internet_of_Things_Maker_Kit](http://digiwarestore.com/en/) - Internet_of_Things_Maker_Kit's product page
 * [Espressif System™](http://espressif.com/en) - Official Website for ESP8266 
 
 To do programming on ESP8266 board using arduino IDE you must do the default configuration below :
@@ -38,11 +38,11 @@ To do programming on ESP8266 board using arduino IDE you must do the default con
 
 Those projects listed above are aimed as introductory to ESP8266 's features.
 
-# [BAHASA INDONESIA] Internet_of_Think_Maker_Kit
-Repository ini dibuat sebagai pelengkap dari Internet_of_Think_Maker_Kit.
-Internet_of_Think_Maker_Kit merupakan produk yang sesuai untuk digunakan sebagai titik awal eksplorasi pada era industri 4.0 yang dikenal dengan Internet of Things (IoT) 
+# [BAHASA INDONESIA] Internet_of_Things_Maker_Kit
+Repository ini dibuat sebagai pelengkap dari Internet_of_Things_Maker_Kit.
+Internet_of_Things_Maker_Kit merupakan produk yang sesuai untuk digunakan sebagai titik awal eksplorasi pada era industri 4.0 yang dikenal dengan Internet of Things (IoT) 
 Informasi untuk masing-masing produk dapat ditemukan pada link-link di bawah: 
-* [Internet_of_Think_Maker_Kit](http://digiwarestore.com/en/) - Halaman produk Internet_of_Think_Maker_Kit
+* [Internet_of_Things_Maker_Kit](http://digiwarestore.com/en/) - Halaman produk Internet_of_Things_Maker_Kit
 * [Espressif System™](http://espressif.com/en) - Website resmi ESP8266 
 
 Untuk melakukan pemrograman pada board ESP8266  menggunakan arduino IDE perlu melakukan konfigurasi default berikut ini :
