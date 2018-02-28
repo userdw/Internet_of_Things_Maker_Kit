@@ -6,7 +6,7 @@ This project is aimed to give you a simple example about how to make a smart hom
 
 ## What is Blynk?
 
-Blynk is a platform with iOS and Android apps to control Arduino, Raspberry Pi and the likes over the Internet. You can easily build graphic interfaces for all your projects by simply dragging and dropping widgets.
+Blynk is a platform with iOS and Android apps to control Arduino, Raspberry Pi and the likes over the Internet. You can easily build graphic interfaces for all your projects by simply dragging & dropping widgets.
 
 <img src="/images/Blynk2.png" height="400">
 
@@ -24,7 +24,7 @@ Proyek ini bertujuan untuk memberi anda contoh sederhana tentang bagaimana membu
 
 ## Apa itu Blynk?
 
-Blynk adalah platform pada aplikasi iOS dan Android untuk mengendalikan Arduino, Raspberry Pi dan sejenisnya melalui Internet. Anda dapat dengan mudah membuat antarmuka grafis untuk semua proyek Anda hanya dengan "dragging and dropping" widgets.
+Blynk adalah platform pada aplikasi iOS dan Android untuk mengendalikan Arduino, Raspberry Pi dan sejenisnya melalui Internet. Anda dapat dengan mudah membuat antarmuka grafis untuk semua proyek Anda hanya dengan "dragging & dropping" widgets.
 
 <img src="/images/Blynk2.png" height="400">
 
