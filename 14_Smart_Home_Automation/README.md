@@ -18,7 +18,7 @@ Blynk is a platform with iOS and Android apps to control Arduino, Raspberry Pi a
 
 # [BAHASA INDONESIA] Proyek 14: Smart Home Automation
 
-Proyek ini bertujuan untuk memberi anda contoh sederhana tentang bagaimana membuat sistem rumah cerdas. Dalam proyek ini kita akan menggunakan smartphone sebagai pengendali utama, maka kita memerlukan aplikasi untuk menanganinya seperti [Blynk] (https://play.google.com/store/apps/details?id=cc.blynk&hl=id), Aplikasi ini bisa diunduh di google playstore atau apple store namun dalam proyek ini kita akan menggunakan ponsel android sebagai pengendali utama. Kita memerlukan konfigurasi awal untuk aplikasi [Blynk] (https://play.google.com/store/apps/details?id=cc.blynk&hl=in), lihat gambar di bawah ini.
+Proyek ini bertujuan untuk memberi anda contoh sederhana tentang bagaimana membuat sistem rumah cerdas. Dalam proyek ini kita akan menggunakan smartphone sebagai pengendali utama, maka kita memerlukan aplikasi untuk menanganinya seperti [Blynk](https://play.google.com/store/apps/details?id=cc.blynk&hl=id), Aplikasi ini bisa diunduh di google playstore atau apple store namun dalam proyek ini kita akan menggunakan ponsel android sebagai pengendali utama. Kita memerlukan konfigurasi awal untuk aplikasi [Blynk](https://play.google.com/store/apps/details?id=cc.blynk&hl=in), lihat gambar di bawah ini.
 
 <img src="/images/14_smart_home_automation.png" height="400">
 
@@ -27,6 +27,8 @@ Proyek ini bertujuan untuk memberi anda contoh sederhana tentang bagaimana membu
 Blynk adalah platform pada aplikasi iOS dan Android untuk mengendalikan Arduino, Raspberry Pi dan sejenisnya melalui Internet. Anda dapat dengan mudah membuat antarmuka grafis untuk semua proyek Anda hanya dengan "dragging and dropping" widgets.
 
 <img src="/images/Blynk2.png" height="400">
+
+Untuk melakukan intalasi dapat mengikuti panduan yang berada di dalam direktori [Blynk](/14_Smart_Home_Automation/Blynk/Instalasi_Blynk_pada_Smartphone.pdf)
 
 ### Modul-modul yang dibutuhkan pada proyek ini:
 * ESP8266 IoT V2.0 (1),
