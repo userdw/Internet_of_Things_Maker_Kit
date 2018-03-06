@@ -38,10 +38,10 @@ void notifyUpTime() {
 void setup()
 {
   Serial.begin(9600);
-  Blynk.begin(auth, ssid, pass);
-  dht.begin();
-  pinMode(13, INPUT_PULLUP);
-  pinMode(4, INPUT_PULLUP);
+  Blynk.begin(auth, ssid, pass);  // GPIO 5 used for output 1
+  dht.begin();                    // GPIO 12 used for output 2
+  pinMode(13, INPUT_PULLUP);      // GPIO 13 used for Magnetic Reed Switch
+  pinMode(4, INPUT_PULLUP);       // GPIO 4 used for DHT22
   timer.setInterval(10L, notifyUpTime);
 }
 
