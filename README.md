@@ -20,7 +20,9 @@ If this is the first time you program ESP8266 board using Arduino IDE, you can c
 
 <img src="/images/configuration_table.PNG" height="430" align ="center">
 
-## The titles of the projects which included in this repository are:
+* You can try to upload an example code to make sure that the installation and configuration went smoothly.
+
+## The title of the projects which included in this repository are:
 * [01. Blinking and Fading a LED](/01_Blinking_and_Fading_a_LED)
 * [02. Click Counter](/02_Click_Counter)
 * [03. Proximity Indicator](/03_Proximity_Indicator)
@@ -35,8 +37,6 @@ If this is the first time you program ESP8266 board using Arduino IDE, you can c
 * [12. Web Client](/12_Web_Client)
 * [13. Web Server]
 * [14. Smart Home Automation](/14_Smart_Home_Automation)
-
-Those projects listed above are aimed as introductory to ESP8266 's features.
 
 # [BAHASA INDONESIA] Internet_of_Things_Maker_Kit
 Repository ini dibuat sebagai pelengkap dari Internet_of_Things_Maker_Kit.
