@@ -1,4 +1,4 @@
-# [ENGLISH] Internet_of_Things_Maker_Kit
+# [ENGLISH] Internet of Things Maker Kit
 This repository has been created as the companion for Internet of Things Maker Kit.
 Internet of Things Maker Kit itself is a suitable start point for both hobbyist and academist alike to start entering the era of Internet of Things (IoT).
 For more information about each products please visit links below:
