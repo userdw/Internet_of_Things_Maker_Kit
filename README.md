@@ -6,7 +6,7 @@ For more information about the product please visit links below:
 * [Espressif System™](http://espressif.com/en) - Official Website for ESP8266
 
 If this is the first time you program ESP8266 board using Arduino IDE, you can configure Arduino IDE following steps below:
-* Open the Arduino IDE software, then select a menu **File | Preferences** or you can use keyboard shortcut, ```Ctrl``` + ```,``` (comma) simultaneously.
+* Open Arduino IDE software, then select **File | Preferences** or you can use keyboard shortcut, ```Ctrl``` + ```,``` (comma) simultaneously.
 
 * Copy and paste ```http://arduino.esp8266.com/stable/package_esp8266com_index.json``` to the ```Additional Boards Manager URLs```.
  
