@@ -1,22 +1,22 @@
 # [ENGLISH] Internet of Things Maker Kit
 This repository has been created as the companion for Internet of Things Maker Kit.
 Internet of Things Maker Kit itself is a suitable start point for both hobbyist and academist alike to start entering the era of Internet of Things (IoT).
-For more information about each products please visit links below:
+For more information about the product please visit links below:
 * [Internet of Things Maker Kit](http://digiwarestore.com/en/) - Internet_of_Things_Maker_Kit's product page
 * [Espressif System™](http://espressif.com/en) - Official Website for ESP8266
 
 If this is the first time you program ESP8266 board using Arduino IDE, you can configure Arduino IDE following steps below:
-* Open the Arduino IDE software, then select a menu **File | Preferences** or you can use keyboard shortcut, ```Ctrl``` + ```,``` (comma) simultaneously 
+* Open the Arduino IDE software, then select a menu **File | Preferences** or you can use keyboard shortcut, ```Ctrl``` + ```,``` (comma) simultaneously.
 
-* Append the additional URL for esp8266 board http://arduino.esp8266.com/stable/package_esp8266com_index.json
+* Copy and paste ```http://arduino.esp8266.com/stable/package_esp8266com_index.json``` to the ```Additional Boards Manager URLs```.
  
 <div style="text-align:center"><img src="/images/additional_url.png" height="200" align ="center"/><div/>
 
-* Then select a menu **Tools | Board | Board Manager**, type esp8266 in the text box then click the install button
+* Open Boards Manager window by selecting **Tools | Board | Boards Manager...** menu, type ```esp8266``` in the text box, then click the Install button.
 
 <div style="text-align:center"><img src="/images/esp8266_package.PNG" height="300" align ="center"/><div/>
 
-* Select **NodeMCU 0.9 (ESP-12 Module)**, then set the requirement parameter for board like shows on the table 
+* Select **Tools | Board**, then pick **NodeMCU 0.9 (ESP-12 Module)**, then set the requirement parameter for board like shows on the table 
 
 <img src="/images/configuration_table.PNG" height="430" align ="center">
 
