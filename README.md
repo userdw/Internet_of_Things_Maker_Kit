@@ -1,11 +1,11 @@
 # [ENGLISH] Internet_of_Things_Maker_Kit
-This repository has been created as the companion for Internet_of_Things_Maker_Kit.
-Internet_of_Things_Maker_Kit itself is a suitable start point for both hobbyist and academist alike to start exploring the new era for industrial version 4.0 called Internet of Things (IoT).
+This repository has been created as the companion for Internet of Things Maker Kit.
+Internet of Things Maker Kit itself is a suitable start point for both hobbyist and academist alike to start entering the era of Internet of Things (IoT).
 For more information about each products please visit links below:
-* [Internet_of_Things_Maker_Kit](http://digiwarestore.com/en/) - Internet_of_Things_Maker_Kit's product page
-* [Espressif System™](http://espressif.com/en) - Official Website for ESP8266 
+* [Internet of Things Maker Kit](http://digiwarestore.com/en/) - Internet_of_Things_Maker_Kit's product page
+* [Espressif System™](http://espressif.com/en) - Official Website for ESP8266
 
-To do programming on ESP8266 board using arduino IDE you must do the default configuration below :
+If this is the first time you program ESP8266 board using Arduino IDE, you can configure Arduino IDE following steps below:
 * Open the Arduino IDE software, then select a menu **File | Preferences** or you can use keyboard shortcut, ```Ctrl``` + ```,``` (comma) simultaneously 
 
 * Append the additional URL for esp8266 board http://arduino.esp8266.com/stable/package_esp8266com_index.json
