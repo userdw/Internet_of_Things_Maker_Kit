@@ -42,10 +42,10 @@ If this is the first time you program ESP8266 board using Arduino IDE, you can c
 Repository ini dibuat sebagai pelengkap dari Internet of Things Maker Kit.
 Internet of Things Maker Kit merupakan produk yang sesuai untuk digunakan sebagai titik awal eksplorasi memasuki era Internet of Things (IoT).
 Informasi untuk produk tersebut terdapat pada link-link di bawah:
-* [Internet_of_Things_Maker_Kit](http://digiwarestore.com/en/) - Halaman produk Internet_of_Things_Maker_Kit
+* [Internet of Things Maker Kit](http://digiwarestore.com/en/) - Halaman produk Internet_of_Things_Maker_Kit
 * [Espressif System™](http://espressif.com/en) - Website resmi ESP8266 
 
-Apabila ini adalah pertama kalinya Anda membuat program untuk ESP8266 dengan Arduino IDE, maka langkah-langkah dibawah dapat dilakukan terlebih dahulu:
+Apabila ini adalah pertama kalinya Anda membuat program untuk ESP8266 pada Arduino IDE, maka langkah-langkah di bawah dapat dilakukan terlebih dahulu:
 * Buka software Arduino IDE, lalu pilih menu **File | Preferences** atau dapat juga dengan menekan tombol ```Ctrl``` + ```,``` (tanda baca koma) secara bersamaan pada keyboard.
 * Copy dan paste ```http://arduino.esp8266.com/stable/package_esp8266com_index.json``` pada ```Additional Boards Manager URLs```.
 
