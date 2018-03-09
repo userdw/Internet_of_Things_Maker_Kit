@@ -1,7 +1,5 @@
 # [ENGLISH] Project 2: Click Counter
-```
-Please note that some parts in this project are not available in Internet of Things Maker Kit. They are available in [Arduino Maker Kit](https://github.com/userdw/Arduino_Maker_Kit).
-```
+***Please note that some parts in this project are not available in Internet of Things Maker Kit. They are available in [Arduino Maker Kit](https://github.com/userdw/Arduino_Maker_Kit).***
 
 On the last project we learned how to control output pin on ESP8266 by uploading a program that blinks a LED and changing LED's brightness. In this project we will learn how to count a click (reading an input pin) on a button using ESP8266 IoT v2.0. This project will use LED Module which will blink as many as the number of clicks the Digital Push Button gets. Also, in this project we will utilize the built in Arduino function called **millis()** to debouce the Digital Push Button.
 
