@@ -12,7 +12,7 @@ If this is the first time you program ESP8266 board using Arduino IDE, you can c
  
 <div style="text-align:center"><img src="/images/additional_url.png" height="200" align ="center"/><div/>
 
-* Open Boards Manager window by selecting **Tools | Board | Boards Manager...** menu, type ```esp8266``` in the text box, then click the Install button.
+* Open Boards Manager window by selecting **Tools | Board | Boards Manager...** menu, type ```esp8266``` in the text box, then click the Install button. Make sure you selected the latest version.
 
 <div style="text-align:center"><img src="/images/esp8266_package.PNG" height="300" align ="center"/><div/>
 
