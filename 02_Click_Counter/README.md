@@ -13,7 +13,7 @@ On the last project we learned how to control output pin on ESP8266 by uploading
 
 ### Assemble the modules following these steps:
 1. Plug the ESP8266 Expansion Shield to the top of ESP8266 IoT v2.0,
-2. Plug the LED Module to the header on the ESP8266 Expansion Shield labelled **4**,
+2. Plug the LED Module to the header on the ESP8266 Expansion Shield labelled **6**,
 3. Plug the Digital Push Button to the header on the ESP8266 Expansion Shield labelled **3**,
 4. Upload the [Click_Counter](/02_Click_Counter/Click_Counter) code into ESP8266 IoT v2.0.
 
@@ -34,7 +34,7 @@ Pada proyek sebelumnya, kita telah belajar bagaimana mengendalikan pin output pa
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
 1. Pasang ESP8266 Expansion Shield di atas ESP8266 IoT v2.0,
-2. Hubungkan LED Module ke header ESP8266 Expansion Shield yang berlabel **4**,
+2. Hubungkan LED Module ke header ESP8266 Expansion Shield yang berlabel **6**,
 3. Hubungkan Digital Push Button ke header ESP8266 Expansion Shield yang berlabel **3**,
 4. Upload kode program [Click_Counter](/02_Click_Counter/Click_Counter) ke ESP8266 IoT v2.0.
 
