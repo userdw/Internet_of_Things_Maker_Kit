@@ -16,7 +16,7 @@ If this is the first time you program ESP8266 board using Arduino IDE, you can c
 
 <div style="text-align:center"><img src="/images/esp8266_package.PNG" height="300" align ="center"/><div/>
 
-* Select **Tools | Board**, then pick **NodeMCU 0.9 (ESP-12 Module)**, then set the requirement parameter for board like shows on the table 
+* Select **Tools | Board**, then pick **NodeMCU 0.9 (ESP-12 Module)**. Set the board's parameters to the value as shown on the table.
 
 <img src="/images/configuration_table.PNG" height="430" align ="center">
 
