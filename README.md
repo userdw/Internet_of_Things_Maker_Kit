@@ -38,24 +38,24 @@ If this is the first time you program ESP8266 board using Arduino IDE, you can c
 * [13. Web Server]
 * [14. Smart Home Automation](/14_Smart_Home_Automation)
 
-# [BAHASA INDONESIA] Internet_of_Things_Maker_Kit
-Repository ini dibuat sebagai pelengkap dari Internet_of_Things_Maker_Kit.
-Internet_of_Things_Maker_Kit merupakan produk yang sesuai untuk digunakan sebagai titik awal eksplorasi pada era industri 4.0 yang dikenal dengan Internet of Things (IoT) 
-Informasi untuk masing-masing produk dapat ditemukan pada link-link di bawah: 
+# [BAHASA INDONESIA] Internet of Things Maker Kit
+Repository ini dibuat sebagai pelengkap dari Internet of Things Maker Kit.
+Internet of Things Maker Kit merupakan produk yang sesuai untuk digunakan sebagai titik awal eksplorasi memasuki era Internet of Things (IoT).
+Informasi untuk produk tersebut terdapat pada link-link di bawah:
 * [Internet_of_Things_Maker_Kit](http://digiwarestore.com/en/) - Halaman produk Internet_of_Things_Maker_Kit
 * [Espressif System™](http://espressif.com/en) - Website resmi ESP8266 
 
-Untuk melakukan pemrograman pada board ESP8266  menggunakan arduino IDE perlu melakukan konfigurasi default berikut ini :
-* Buka software Arduino IDE, lalu pilih menu **File | Preferences** atau dapat juga dengan menekan tombol ```Ctrl``` + ```,``` (tanda baca koma) secara bersamaan pada keyboard
-* Menambahkan alamat URL untuk esp8266 yaitu http://arduino.esp8266.com/stable/package_esp8266com_index.json
+Apabila ini adalah pertama kalinya Anda membuat program untuk ESP8266 dengan Arduino IDE, maka langkah-langkah dibawah dapat dilakukan terlebih dahulu:
+* Buka software Arduino IDE, lalu pilih menu **File | Preferences** atau dapat juga dengan menekan tombol ```Ctrl``` + ```,``` (tanda baca koma) secara bersamaan pada keyboard.
+* Copy dan paste ```http://arduino.esp8266.com/stable/package_esp8266com_index.json``` pada ```Additional Boards Manager URLs```.
 
 <div style="text-align:center"><img src="/images/additional_url.png" height="200" align ="center"/><div/>
 
-* Kemudian pilih menu **Tools | Board | Board Manager**, ketikkan esp8266 pada text box kemudian lakukan instalasi
+* Buka jendela Boards Manager dengan cara memilih menu **Tools | Board | Boards Manager...**, ketikkan ```esp8266``` pada text box, lalu tekan tombol Install. Pastikan versi yang dipilih adalah yang terbaru.
 
 <div style="text-align:center"><img src="/images/esp8266_package.PNG" height="300" align ="center"/><div/>
 
-* Pilih **NodeMCU 0.9 (ESP-12 Module)**, kemudian lakukan pengaturan parameter pada board seperti pada tabel
+* Buka menu **Tools | Board**, kemudian pilih **NodeMCU 0.9 (ESP-12 Module)**. Atur parameter board sesuai dengan yang ditunjukkan oleh tabel di bawah.
 
 <img src="/images/configuration_table.PNG" height="430" align ="center">
 
@@ -75,5 +75,3 @@ Untuk melakukan pemrograman pada board ESP8266  menggunakan arduino IDE perlu me
 * [12. Web Client](/12_Web_Client)
 * [13. Web Server]
 * [14. Smart Home Automation](/14_Smart_Home_Automation)
-
-Proyek-proyek yang terdapat pada poin-poin di atas ditujukan sebagai pengantar untuk fitur-fitur ESP8266 .
