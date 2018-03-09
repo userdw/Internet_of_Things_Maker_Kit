@@ -15,7 +15,7 @@ If we need to control an output which have more states than on/off, we will have
 1. Plug the ESP8266 Expansion Shield to the top of ESP8266 IoT v2.0,
 2. Plug the Rotation Sensor to the header on the ESP8266 Expansion Shield labelled **ADC**,
 3. Plug the Micro Servo to the header on the ESP8266 Expansion Shield labelled **PWM**,
-4. Upload the [Potentiometer_Controlled_Servo](/06_Potentiometer_Controlled_Servo/Potentiometer_Controlled_Servo) code into ESP8266 IoT V2.0.
+4. Upload the [Potentiometer_Controlled_Servo](/06_Potentiometer_Controlled_Servo/Potentiometer_Controlled_Servo) code into ESP8266 IoT v2.0.
 
 If there are no mistakes, Micro Servo movement will be determined by the rotation of Rotation Sensor.
 
