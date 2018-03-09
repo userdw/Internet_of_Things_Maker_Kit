@@ -5,16 +5,16 @@ How to add movement detection feature to your project? The answer is PIR sensor,
 <img src="/images/04_motion_detector.png" height="400">
 
 ### In this project you will need:
-* ESP8266 IoT V2.0 (1),
-* I/O Expansion Shield (1),
+* ESP8266 IoT v2.0 (1),
+* ESP8266 Expansion Shield (1),
 * LED Module (1),
 * PIR Sensor (1).
 
 ### Assemble the modules following these steps:
-1. Plug the I/O Expansion Shield to the top of ESP8266 IoT V2.0,
-2. Plug the LED Module to the header on the I/O Expansion Shield labelled **3**,
-3. Plug the PIR Sensor to the header on the I/O Expansion Shield labelled **5**,
-4. Upload the [Motion_Detector](/04_Motion_Detector/Motion_Detector) code into ESP8266 IoT V2.0.
+1. Plug the ESP8266 Expansion Shield to the top of ESP8266 IoT v2.0,
+2. Plug the LED Module to the header on the ESP8266 Expansion Shield labelled **3**,
+3. Plug the PIR Sensor to the header on the ESP8266 Expansion Shield labelled **5**,
+4. Upload the [Motion_Detector](/04_Motion_Detector/Motion_Detector) code into ESP8266 IoT v2.0.
 
 If there are no mistakes, LED Module should blink as long as there is movevment detected by PIR Sensor.
 
