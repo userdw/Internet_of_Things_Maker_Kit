@@ -59,6 +59,7 @@ Apabila ini adalah pertama kalinya Anda membuat program untuk ESP8266 pada Ardui
 
 <img src="/images/configuration_table.PNG" height="430" align ="center">
 
+* Anda dapat mencoba untuk melakukan upload contoh program yang tersedia pada Arduino IDE untuk memastikan bahwa instalasi dan konfigurasi yang dilakukan sebelumnya telah berhasil.
 
 ## Judul-judul proyek yang disertakan pada repository ini adalah:
 * [01. Blinking and Fading a LED](/01_Blinking_and_Fading_a_LED)
