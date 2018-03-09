@@ -1,5 +1,5 @@
 # [ENGLISH] Project 1: Blinking and Fading a LED
-*Please note that some parts in this project are not available in Internet of Things Maker Kit. They are available in [Arduino Maker Kit](https://github.com/userdw/Arduino_Maker_Kit).*
+***Please note that some parts in this project are not available in Internet of Things Maker Kit. They are available in [Arduino Maker Kit](https://github.com/userdw/Arduino_Maker_Kit).***
 
 For you which already are familiar with Arduino ecosystem, no extra effort will be spent in this project, since ESP8266 is compatible with most if not all of Arduino's syntaxes. Not to mention that ESP8266 has a great community. That means (most of) what you can run on Arduino, will be able to run just fine on ESP8266. If this is your first time coding an ESP8266 board, then it will be fast to learn how to control an output pin.
 
@@ -18,7 +18,7 @@ For you which already are familiar with Arduino ecosystem, no extra effort will 
 If there are no mistakes, the LED Module should start blinking then increase and fade in its brightness.
 
 # [BAHASA INDONESIA] Proyek 1: Blinking and Fading a LED
-*Beberapa peralatan yang digunakan pada proyek ini tidak tersedia pada Internet of Things Maker Kit. Peralatan-peralatan tersebut terdapat pada [Arduino Maker Kit](https://github.com/userdw/Arduino_Maker_Kit).*
+***Beberapa peralatan yang digunakan pada proyek ini tidak tersedia pada Internet of Things Maker Kit. Peralatan-peralatan tersebut terdapat pada [Arduino Maker Kit](https://github.com/userdw/Arduino_Maker_Kit).***
 
 Bagi Anda yang sudah mengenal Arduino beserta pemrogramannya, proyek ini tentu tidak akan sulit untuk dipahami, karena ESP8266 kompatibel sebagian besar atau bahkan semua kode program Arduino. Selain itu, ESP8266 juga didukung oleh komunitas yang kuat. Jangan khawatir apabila ini adalah pertama kalinya Anda memprogram modul ESP8266, karena kore program yang digunakan relatif mudah untuk dipelajari sehingga Anda dapat memahami proses pengendalian pin output dengan cepat.
 
