@@ -1,5 +1,5 @@
 # [ENGLISH] Project 8: Temperature and Humidity Measurement
-This project is aimed to give you a simple example about how to use microcontroller as the main processor of weather station. In this project we will monitor the ambient temperature of a room. The system in this project will utilize the Temperature & Humidity and display it to serial monitor from Arduino IDE.
+This project is aimed to give you a simple example about how to use microcontroller as the main processor of weather station. In this project we will monitor the ambient temperature of a room. The system in this project will utilize the Temp & Humidity Sensor and display it to serial monitor from Arduino IDE.
 
 <img src="/images/08_temperature_humidity_measurement.png" height="400">
 
@@ -16,7 +16,7 @@ This project is aimed to give you a simple example about how to use microcontrol
 If there are no mistakes, system will start to measure the ambient temperature every 2 seconds. 
 
 # [BAHASA INDONESIA] Proyek 8: Temperature and Humidity Measurement
-Proyek ini ditujukan untuk memberikan contoh sederhana mengenai penggunaan mikrokontroler sebagai sebuah stasiun cuaca. Adapun pada proyek ini hal yang akan dipantau adalah suhu sekitar dari sebuah ruangan. Sistem pada proyek ini akan memanfaatkan Temperature & RH sensor untuk pendeteksian suhu dan kelembaban.
+Proyek ini ditujukan untuk memberikan contoh sederhana mengenai penggunaan mikrokontroler sebagai sebuah stasiun cuaca. Adapun pada proyek ini hal yang akan dipantau adalah suhu sekitar dari sebuah ruangan. Sistem pada proyek ini akan memanfaatkan Temp & RH Sensor untuk pendeteksian suhu dan kelembaban.
 
 <img src="/images/08_temperature_humidity_measurement.png" height="400">
 
