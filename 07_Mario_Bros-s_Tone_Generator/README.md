@@ -5,14 +5,14 @@ In this project you will be introduced to buzzer. Buzzer is simply a component t
 <img src="/images/07_mario_bros_tone_generator.png" height="400">
 
 ### In this project you will need:
-* ESP8266 IoT V2.0 (1),
-* I/O Expansion Shield (1),
+* ESP8266 IoT v2.0 (1),
+* ESP8266 Expansion Shield (1),
 * Buzzer Module (1).
 
 ### Assemble the modules following these steps:
-1. Plug the I/O Expansion Shield to the top of ESP8266 IoT V2.0,
-2. Plug the Buzzer Module to the header on the I/O Expansion Shield labelled **5**,
-3. Upload the [Mario_Bros_Tone_Generator](/07_Mario_Bros_Tone_Generator/Mario_Bros_Tone_Generator) code into ESP8266 IoT V2.0.
+1. Plug the ESP8266 Expansion Shield to the top of ESP8266 IoT v2.0,
+2. Plug the Buzzer Module to the header on the ESP8266 Expansion Shield labelled **5**,
+3. Upload the [Mario_Bros_Tone_Generator](/07_Mario_Bros_Tone_Generator/Mario_Bros_Tone_Generator) code into ESP8266 IoT v2.0.
 
 If there are no mistakes, the system will play Mario Bros tone. The code was made by Dipto Pratyaksa and slightly modified for Arduino Starter Kit. Please visit [here](http://www.princetronics.com/supermariothemesong/) for more information.
 
@@ -22,13 +22,13 @@ Buzzer merupakan komponen yang akan menghasilkan suara ketika diberi tegangan. K
 <img src="/images/07_mario_bros_tone_generator.png" height="400">
 
 ### Modul-modul yang dibutuhkan pada proyek ini:
-* ESP8266 IoT V2.0 (1),
-* I/O Expansion Shield (1),
+* ESP8266 IoT v2.0 (1),
+* ESP8266 Expansion Shield (1),
 * Buzzer Module (1).
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
-1. Pasang I/O Expansion Shield di atas ESP8266 IoT V2.0,
-2. Hubungkan Buzzer Module ke header I/O Expansion Shield yang berlabel **5**,
-3. Upload kode program [Mario_Bros_Tone_Generator](/07_Mario_Bros_Tone_Generator/Mario_Bros_Tone_Generator) ke ESP8266 IoT V2.0.
+1. Pasang ESP8266 Expansion Shield di atas ESP8266 IoT v2.0,
+2. Hubungkan Buzzer Module ke header ESP8266 Expansion Shield yang berlabel **5**,
+3. Upload kode program [Mario_Bros_Tone_Generator](/07_Mario_Bros_Tone_Generator/Mario_Bros_Tone_Generator) ke ESP8266 IoT v2.0.
 
 Apabila tidak terdapat kesalahan, maka sistem akan memainkan nada Mario Bros. Kode program tersebut diciptakan oleh Dipto Pratyaksa dan sedikit dimodifikasi untuk digunakan pada Arduino Starter Kit. Kunjungi [link](http://www.princetronics.com/supermariothemesong/) berikut untuk informasi yang lebih detil.
