@@ -1,38 +1,41 @@
-
 # [ENGLISH] Project 5: Ambient Light Monitoring
+***Please note that some parts in this project are not available in Internet of Things Maker Kit. You can found them in [Arduino Maker Kit](https://github.com/userdw/Arduino_Maker_Kit).***
+
 Through this project you will be introduced to the usage of Light Dependent Resistor (LDR) to estimate the ambient light surrounding the system. This kind of system mostly found in outdoor lighting or even in our smartphone to control screen brightness. The system in this project will detect the level of ambient light. When the ambient light gets brighter, the LED brightness will increase. On the contrary, when the ambient light gets dimmer, the LED brightness will decrease.
 
 <img src="/images/05_ambient_light_monitoring.png" height="400">
 
 ### In this project you will need:
-* ESP8266 IoT V2.0 (1),
-* I/O Expansion Shield (1),
+* ESP8266 IoT v2.0 (1),
+* ESP8266 Expansion Shield (1),
 * LED Module (1),
 * LDR Sensor (1).
 
 ### Assemble the modules following these steps:
-1. Plug the I/O Expansion Shield to the top of ESP8266 IoT V2.0,
-2. Plug the LED Module to the header on the I/O Expansion Shield labelled **4**,
-3. Plug the LDR Sensor to the header on the I/O Expansion Shield labelled **ADC**,
-4. Upload the [Ambient_Light_Monitoring](/05_Ambient_Light_Monitoring/Ambient_Light_Monitoring) code into ESP8266 IoT V2.0.
+1. Plug the ESP8266 Expansion Shield to the top of ESP8266 IoT v2.0,
+2. Plug the LED Module to the header on the ESP8266 Expansion Shield labelled **4**,
+3. Plug the LDR Sensor to the header on the ESP8266 Expansion Shield labelled **ADC**,
+4. Upload the [Ambient_Light_Monitoring](/05_Ambient_Light_Monitoring/Ambient_Light_Monitoring) code into ESP8266 IoT v2.0.
 
-Once you turn on the ESP8266 IoT V2.0, it will enter calibration mode for about 3 seconds. Cover the LDR Sensor with your finger to determine the lowest brightness, and uncover the LDR Sensor to determine the highest brightness. Be careful of shadows. If there are no mistakes, LED Module will gets brighter when the ambient light gets dimmer. On the contrary, LED Module will gets dimmer when the ambient light gets brighter.
+Once you turn on the ESP8266 IoT v2.0, it will enter calibration mode for about 3 seconds. Cover the LDR Sensor with your finger to determine the lowest brightness, and uncover the LDR Sensor to determine the highest brightness. Be careful of shadows. If there are no mistakes, LED Module will gets brighter when the ambient light gets dimmer. On the contrary, LED Module will gets dimmer when the ambient light gets brighter.
 
 # [BAHASA INDONESIA] Proyek 5: Ambient Light Monitoring
+***Beberapa peralatan yang digunakan pada proyek ini tidak tersedia pada Internet of Things Maker Kit. Peralatan-peralatan tersebut dapat ditemukan pada [Arduino Maker Kit](https://github.com/userdw/Arduino_Maker_Kit).***
+
 Proyek ini digunakan untuk memberikan gambaran mengenai penggunaan sensor Light Dependent Resistor (LDR) untuk mengukur intensitas cahaya lingkungan sekitar. Aplikasi seperti ini sering ditemukan pada sistem lampu taman hingga pengatur tingkat kecerahan layar pada smartphone kita. Sistem pada proyek ini akan mendeteksi intensitas cahaya sekitar menggunakan LDR Sensor. Apabila intensitas cahaya yang diterima semakin besar, maka tingkat kecerahan LED akan naik. Sebaliknya, apabila intensitas cahaya yang diterima semakin kecil, maka tingkat kecerahan LED akan menurun.
 
 <img src="/images/05_ambient_light_monitoring.png" height="400">
 
 ### Modul-modul yang dibutuhkan pada proyek ini:
-* ESP8266 IoT V2.0 (1),
-* I/O Expansion Shield (1),
+* ESP8266 IoT v2.0 (1),
+* ESP8266 Expansion Shield (1),
 * LED Module (1),
 * LDR Sensor (1).
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
-1. Pasang I/O Expansion Shield di atas ESP8266 IoT V2.0,
-2. Hubungkan LED Module ke header I/O Expansion Shield yang berlabel **4**,
-3. Hubungkan LDR Sensor ke header I/O Expansion Shield yang berlabel **ADC**,
-4. Upload kode program [Ambient_Light_Monitoring](/05_Ambient_Light_Monitoring/Ambient_Light_Monitoring) ke ESP8266 IoT V2.0.
+1. Pasang ESP8266 Expansion Shield di atas ESP8266 IoT v2.0,
+2. Hubungkan LED Module ke header ESP8266 Expansion Shield yang berlabel **4**,
+3. Hubungkan LDR Sensor ke header ESP8266 Expansion Shield yang berlabel **ADC**,
+4. Upload kode program [Ambient_Light_Monitoring](/05_Ambient_Light_Monitoring/Ambient_Light_Monitoring) ke ESP8266 IoT v2.0.
 
-Pada saat ESP8266 IoT V2.0 dinyalakan, ESP8266 IoT V2.0 akan memasuki proses kalibrasi selama kurang lebih 3 detik. Tutupi LDR Sensor dengan jari untuk mendapatkan nilai kecerahan terendah, dan hilangkan halangan pada LDR Sensor untuk mendapatkan nilai kecerahan tertinggi. Bayangan akan mempengaruhi proses kalibrasi. Apabila tidak terdapat kesalahan, nyala LED Module akan semakin terang saat cahaya sekitar semakin gelap. Sebaliknya, nyala LED Module akan semakin redup saat cahaya sekitar semakin terang.
+Pada saat ESP8266 IoT v2.0 dinyalakan, ESP8266 IoT v2.0 akan memasuki proses kalibrasi selama kurang lebih 3 detik. Tutupi LDR Sensor dengan jari untuk mendapatkan nilai kecerahan terendah, dan hilangkan halangan pada LDR Sensor untuk mendapatkan nilai kecerahan tertinggi. Bayangan akan mempengaruhi proses kalibrasi. Apabila tidak terdapat kesalahan, nyala LED Module akan semakin terang saat cahaya sekitar semakin gelap. Sebaliknya, nyala LED Module akan semakin redup saat cahaya sekitar semakin terang.
