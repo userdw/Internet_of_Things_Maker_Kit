@@ -35,7 +35,7 @@ If this is the first time you program ESP8266 board using Arduino IDE, you can c
 * [10. Green Technology](/10_Green_Technology)
 * [11. Access point](/11_Access_Point)
 * [12. Web Client](/12_Web_Client)
-* [13. Web Server]
+* [13. Web Server](/13_Web_Server)
 * [14. Smart Home Automation](/14_Smart_Home_Automation)
 
 # [BAHASA INDONESIA] Internet of Things Maker Kit
