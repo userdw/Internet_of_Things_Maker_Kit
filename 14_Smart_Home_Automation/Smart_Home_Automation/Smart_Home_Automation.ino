@@ -55,7 +55,7 @@ void gettemperature() {
     // Read a humidity value is require time 250 milisecond
     // Read a temperature value require time 2 second 
     humidity = dht.readHumidity();         // read a humidity in percent (%)
-    temp = dht.readTemperature(false);     // read a temperature in Fahrenheit
+    temp = dht.readTemperature(false);     // read a temperature in Celcius
     Blynk.virtualWrite(V0, temp);
     Blynk.virtualWrite(V1, humidity);
 
