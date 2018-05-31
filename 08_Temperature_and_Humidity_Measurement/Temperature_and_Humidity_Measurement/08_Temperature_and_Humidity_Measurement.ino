@@ -18,7 +18,6 @@ float h, t;             // Variable for Humidity and Temperature
 
 void setup() {
   Serial.begin(9600);
-  delay(10);
   dht.begin();
 }
 
