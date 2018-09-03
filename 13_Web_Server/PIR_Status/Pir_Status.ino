@@ -44,8 +44,8 @@ void setup() {
   start_httpd();             // Start webserver
 
   // Configure timer
-  os_timer_setfn(&myTimer, timerCallback, NULL);        // Setup timer
-  os_timer_arm(&myTimer, TIMER_UPDATE, true);           // 0 for execute once and 1 for Repeating execution
+  os_timer_setfn(&myTimer, timerCallback, NULL);        // Define a function to be called when the timer setup
+  os_timer_arm(&myTimer, TIMER_UPDATE, true);           // Arm : Fires when timer reach zero, 0 for execute once and 1 for Repeating execution
 }
 
 // the loop function runs over and over again forever
