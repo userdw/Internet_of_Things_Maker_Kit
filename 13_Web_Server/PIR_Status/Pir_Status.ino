@@ -44,8 +44,8 @@ void setup() {
   start_httpd();             // Start webserver
 
   // Configure timer
-  os_timer_setfn(&myTimer, timerCallback, NULL);
-  os_timer_arm(&myTimer, TIMER_UPDATE, true);
+  os_timer_setfn(&myTimer, timerCallback, NULL);        // Setup timer
+  os_timer_arm(&myTimer, TIMER_UPDATE, true);           // 0 for execute once and 1 for Repeating execution
 }
 
 // the loop function runs over and over again forever
@@ -96,7 +96,7 @@ void connect_wifi() {
 void start_httpd() {
   webpage_head += "<html><head>";
   webpage_head += "<title>ESP8266 Webserver </title>";
-  webpage_head += "<meta http-equiv=\"refresh\" content=\"5\" >";       //Refresh Time for Web Server 5 Second
+  webpage_head += "<meta http-equiv=\"refresh\" content=\"5\" >";       //Refresh Time for Web Server in 5 Second
   webpage_head += "</head><body>";
   webpage_head += "<h1>ESP8266 Webserver</h1>";
   webpage_head += "<p>Welcome to the website of ESP8266!</p>";
