@@ -16,10 +16,10 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
 #include <ESP8266mDNS.h>
-#include "user_interface.h" // Needed for timer
+#include "user_interface.h"             // Needed for timer
 
 // Define time function for periodic read in of digital input
-os_timer_t myTimer;
+os_timer_t myTimer;                     // Variable declaration for timer
 #define TIMER_UPDATE 100
 
 // Bolean variable for digital input reads
