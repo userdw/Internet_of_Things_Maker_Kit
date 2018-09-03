@@ -27,8 +27,8 @@ bool inp = 0;
 String data;
 
 // WiFi parameter
-const char* ssid     = "IEDW_Direct";
-const char* password = "telkomdirectwifi";
+const char* ssid     = "Your SSID";
+const char* password = "Your Password";
 
 // Webserver parameter
 ESP8266WebServer server(80);
@@ -77,7 +77,7 @@ void connect_wifi() {
   Serial.print(ssid);
   Serial.print(" ");
 
-  WiFi.mode(WIFI_STA); // Explicitly set the ESP8266 to be a WiFi-client
+  WiFi.mode(WIFI_STA);          // Explicitly set the ESP8266 to be a WiFi-client
   WiFi.begin(ssid, password);
 
   while (WiFi.status() != WL_CONNECTED) {
@@ -96,7 +96,7 @@ void connect_wifi() {
 void start_httpd() {
   webpage_head += "<html><head>";
   webpage_head += "<title>ESP8266 Webserver </title>";
-  webpage_head += "<meta http-equiv=\"refresh\" content=\"5\" >";
+  webpage_head += "<meta http-equiv=\"refresh\" content=\"5\" >";       //Refresh Time for Web Server 5 Second
   webpage_head += "</head><body>";
   webpage_head += "<h1>ESP8266 Webserver</h1>";
   webpage_head += "<p>Welcome to the website of ESP8266!</p>";
