@@ -20,7 +20,7 @@
 
 // Define time function for periodic read in of digital input
 os_timer_t myTimer;                     // Variable declaration for timer
-#define TIMER_UPDATE 100
+#define TIMER_UPDATE 100                // Unit in Milisecond
 
 // Bolean variable for digital input reads
 bool inp = 0;
@@ -45,7 +45,8 @@ void setup() {
 
   // Configure timer
   os_timer_setfn(&myTimer, timerCallback, NULL);        // Define a function to be called when the timer setup
-  os_timer_arm(&myTimer, TIMER_UPDATE, true);           // Arm : Fires when timer reach zero, 0 for execute once and 1 for Repeating execution
+  os_timer_arm(&myTimer, TIMER_UPDATE, true);           // Enable a millisecond timer
+                                                        // 0 for execute once and 1 for Repeating execution
 }
 
 // the loop function runs over and over again forever
@@ -53,7 +54,8 @@ void loop() {
   server.handleClient();
 }
 
-// Timer-controlled read in of digital input
+// Define the callback function that will be called when the timer reaches zero. 
+//The pTimer parameters is a pointer to the timer control structure.
 void timerCallback(void *pArg) {
   inp = digitalRead(EXP_PIN_3);
   if (inp == 1) {
