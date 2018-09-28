@@ -19,7 +19,7 @@ MFRC522 mfrc522(SS_PIN, RST_PIN);             // instatiate a MFRC522 reader obj
 MFRC522::MIFARE_Key key;                      //create a MIFARE_Key struct named 'key', which will hold the card information
 
 String stored_value, jumlahStr;
-int block = 62, size_value, jumlah ;;         //this is the block number we will write into and then read. Do not write into 'sector trailer' block, since this can make the block unusable.
+int block = 62, size_value, jumlah ;         //this is the block number we will write into and then read. Do not write into 'sector trailer' block, since this can make the block unusable.
 byte readbackblock[18];                       //This array is used for reading out a block. The MIFARE_Read method requires a buffer that is at least 18 bytes to hold the 16 bytes of a block.
 byte clear_blockcontent[16] = {0, 0, 0, 0,    //This Array for clear the block content
                                0, 0, 0, 0,
