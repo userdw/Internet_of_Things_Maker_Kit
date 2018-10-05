@@ -4,7 +4,7 @@
         Shield      ESP8266
   --------------------------------------------------------------------------*/
 #define EXP_PIN_2     0
-#define EXP_PIN_3     4
+#define EXP_PIN_3     4   // PIR Sensor
 #define EXP_PIN_4     5   //LED Built in ESP8266
 #define EXP_PIN_5     12
 #define EXP_PIN_6     13
