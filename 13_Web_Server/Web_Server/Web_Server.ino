@@ -17,7 +17,7 @@
 
 ESP8266WebServer server(80);
 
-char ssid[] = "Your SSID";
+char ssid[] = "Your SSID";         // Connect with your Network
 char pass[] = "Your Password";
 String webPage = "";
 
