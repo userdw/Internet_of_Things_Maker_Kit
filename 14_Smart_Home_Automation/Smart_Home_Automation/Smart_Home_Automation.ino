@@ -10,7 +10,7 @@
 #define DHTPIN  4
 
 
-DHT dht(DHTPIN, DHTTYPE, 11);
+DHT dht(DHTPIN, DHTTYPE);
 float humidity, temp;  				      // Variable for saving valu from sensor
 unsigned long previousMillis = 0;
 const long interval = 15000;        // time interval for update value from sensor
