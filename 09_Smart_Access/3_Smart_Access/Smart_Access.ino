@@ -84,6 +84,10 @@ void loop() {
   }
   else Serial.println(F("Card read previously."));
 
+  //  ESP.wdtDisable();
+  //  rfid.PICC_DumpToSerial(&(rfid.uid)); //uncomment this if you want to see the entire 1k memory with the block written into it.
+  //  ESP.wdtEnable(1000);
+   
   // Halt PICC
   rfid.PICC_HaltA();
 
