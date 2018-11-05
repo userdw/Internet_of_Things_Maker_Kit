@@ -6,7 +6,9 @@ Radio Frequency Identification (RFID) technology is an automated data capture te
 * **Smart Access**	  : describe about how to read rfid tag and stored it to registered user device
 * **Smart Token**	  : describe about how to make a simple system like e-Money
 
-<img src="/images/09_smart_access_2.png" height="400">
+<p align="center">
+<img src="/images/09_smart_access.png" height="400">
+</p>
 
 First if you want to develop some application using MIFARE 1K tag, you must read the [datasheet](/09_Smart_Access/Datasheet) especially on page 7-10 on chapter 8. You will find the image below :
 
@@ -27,7 +29,9 @@ Teknologi identifikasi frekuensi radio (RFID)  adalah teknologi menangkap data o
 * **Smart Token**	  : menjelaskan tentang cara membuat sistem e-Money sederhana.
 
 
-<img src="/images/09_smart_access_2.png" height="400">
+<p align="center">
+<img src="/images/09_smart_access.png" height="400">
+</p>
 
 Pertama jika Anda ingin mengembangkan beberapa aplikasi dengan menggunakan tag MIFARE 1K, Anda harus membaca [datasheet](/09_Smart_Access/Datasheet) terutama di halaman 7-10 pada bab 8. Anda akan menemukan gambar di bawah ini:
 
