@@ -69,6 +69,11 @@ void loop()
   {
     Serial.write (readbackblock[j]);//Serial.write() transmits the ASCII numbers as human readable characters to serial monitor
   }
+  
+  //  ESP.wdtDisable();
+  //  mfrc522.PICC_DumpToSerial(&(mfrc522.uid)); //uncomment this if you want to see the entire 1k memory with the block written into it.
+  //  ESP.wdtEnable(1000);
+   
   // Halt PICC
   mfrc522.PICC_HaltA();
 
