@@ -73,7 +73,11 @@ void loop() {
   Serial.print(F("In dec: "));
   printDec(rfid.uid.uidByte, rfid.uid.size);
   Serial.println();
-
+   
+  //  ESP.wdtDisable();
+  //  rfid.PICC_DumpToSerial(&(rfid.uid)); //uncomment this if you want to see the entire 1k memory with the block written into it.
+  //  ESP.wdtEnable(1000);
+   
   // Halt PICC
   rfid.PICC_HaltA();
 
