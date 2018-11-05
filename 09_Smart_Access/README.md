@@ -12,7 +12,9 @@ Radio Frequency Identification (RFID) technology is an automated data capture te
 
 First if you want to develop some application using MIFARE 1K tag, you must read the [datasheet](/09_Smart_Access/Datasheet) especially on page 7-10 on chapter 8. You will find the image below :
 
+<p align="center">
 <img src="/images/memory_organization_mifare1k.PNG" height="600">
+</p>
 
 The image shown above describe about the memory structure of mifare 1k tag, it will help you to knows the memory address which available to use in case write data to it. Mifare 1K tag have 16 sector, 4 block each sector and 16 byte number in each block. Some of block are used by trailer block, key block (key A & B) and NUID block. The data can be write outside of trailer block,key block, and NUID block.
 
@@ -35,8 +37,9 @@ Teknologi identifikasi frekuensi radio (RFID)  adalah teknologi menangkap data o
 
 Pertama jika Anda ingin mengembangkan beberapa aplikasi dengan menggunakan tag MIFARE 1K, Anda harus membaca [datasheet](/09_Smart_Access/Datasheet) terutama di halaman 7-10 pada bab 8. Anda akan menemukan gambar di bawah ini:
 
+<p align="center">
 <img src = "/images/memory_organization_mifare1k.PNG" height = "600">
-
+</p>
 Gambar yang ditunjukkan di atas menjelaskan tentang struktur memori dari tag mifare 1k, ini akan membantu Anda mengetahui alamat memori yang tersedia untuk digunakan untuk menulis data ke dalamnya. Tag Mifare 1K memiliki 16 sektor, 4 blok masing-masing sektor dan 16 byte di setiap blok. Beberapa blok digunakan oleh blok trailer, blok kunci(kunci A & B) dan blok NUID. Data bisa ditulis di luar blok trailer, blok kunci, dan blok NUID.
 
 ### Modul-modul yang dibutuhkan pada proyek ini:
