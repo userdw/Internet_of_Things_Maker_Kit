@@ -13,7 +13,7 @@
 DHT dht(DHTPIN, DHTTYPE);
 float humidity, temp;  				      // Variable for saving valu from sensor
 unsigned long previousMillis = 0;
-const long interval = 15000;        // time interval for update value from sensor
+const long interval = 1000;        // time interval for update value from sensor
 
 // Blynk Authentication
 char auth[] = "Your Authentication Token";
