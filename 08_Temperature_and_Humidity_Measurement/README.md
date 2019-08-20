@@ -10,7 +10,7 @@ This project is aimed to give you a simple example about how to use microcontrol
 
 ### Assemble the modules following these steps:
 1. Plug the ESP8266 Expansion Shield to the top of ESP8266 IoT v2.0,
-2. Plug the Temp & RH Sensor to the header on the ESP8266 Expansion Shield labelled **7**,
+2. Plug the Temp & RH Sensor to the header on the ESP8266 Expansion Shield labelled **5**,
 3. Upload the [Temperature and Humidity Measurement](/08_Temperature_and_Humidity_Measurement/Temperature_and_Humidity_Measurement) code into ESP8266 IoT v2.0.
 
 If there are no mistakes, system will start to measure the ambient temperature every 2 seconds. 
@@ -27,7 +27,7 @@ Proyek ini ditujukan untuk memberikan contoh sederhana mengenai penggunaan mikro
 
 ### Hubungkan modul-modul di atas mengikuti langkah-langkah di bawah ini:
 1. Pasang ESP8266 Expansion Shield di atas ESP8266 IoT v2.0,
-2. Hubungkan Temp & RH Sensor ke header ESP8266 Expansion Shield yang berlabel **7**,
+2. Hubungkan Temp & RH Sensor ke header ESP8266 Expansion Shield yang berlabel **5**,
 3. Upload kode program [Temperature and Humidity Measurement](/08_Temperature_and_Humidity_Measurement/Temperature_and_Humidity_Measurement) ke ESP8266 IoT v2.0.
 
 Apabila tidak terdapat kesalahan, sistem akan mulai melakukan pengukuran suhu setiap 2 detik. Kemudian hasil pengukuran ditampilkan pada serial monitor dari Arduino IDE.
