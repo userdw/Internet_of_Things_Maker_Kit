@@ -46,9 +46,4 @@ if (client.available()) {
     char c = client.read();
     Serial.print(c);
   }
-  if (!client.connected()) {
-    Serial.println();
-    Serial.println("disconnecting from server.");
-    client.stop();
-  }  
 }
