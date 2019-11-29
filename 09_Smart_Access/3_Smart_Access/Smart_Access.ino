@@ -15,7 +15,10 @@
 
 constexpr uint8_t RST_PIN = 5;          // Configurable, see typical pin layout above
 constexpr uint8_t SS_PIN = 15;          // Configurable, see typical pin layout above
-byte knownTag[4] = {208, 47, 101, 124}; // Known NUID tag from Last Scan
+
+byte knownTag[4] = {128, 217, 221, 26}; // Known NUID tag from Last Scan3
+byte knownTag2[4] = {165, 8, 226, 82}; // Known NUID tag from Last Scan3
+
 MFRC522 rfid(SS_PIN, RST_PIN);          // Instance of the class
 
 MFRC522::MIFARE_Key key;
@@ -76,8 +79,12 @@ void loop() {
     for (byte i = 0; i < 4; i++) {
       nuidPICC[i] = rfid.uid.uidByte[i];
       if ((knownTag[i] == nuidPICC[i])) {
-        Serial.println("wELCOME HOME SIR! :) HAVE A GOOD REST");
-      } else {
+        Serial.println("WELCOME HOME SIR! :) HAVE A GOOD REST");
+      }
+      else if ((knownTag2[i] == nuidPICC[i])) {
+        Serial.println("WELCOME HOME SIR! :)");
+      }
+      else {
         Serial.println("ARE YOU STRANGER ?");
       }
     }
@@ -87,7 +94,7 @@ void loop() {
   //  ESP.wdtDisable();
   //  rfid.PICC_DumpToSerial(&(rfid.uid)); //uncomment this if you want to see the entire 1k memory with the block written into it.
   //  ESP.wdtEnable(1000);
-   
+
   // Halt PICC
   rfid.PICC_HaltA();
 
