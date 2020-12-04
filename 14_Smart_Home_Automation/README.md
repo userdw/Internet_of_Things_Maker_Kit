@@ -28,7 +28,7 @@ Blynk adalah platform pada aplikasi iOS dan Android untuk mengendalikan Arduino,
 
 <img src="/images/Blynk2.png" height="400">
 
-Untuk melakukan intalasi dapat mengikuti panduan yang berada di dalam direktori [Blynk Documentation](/Blynk_Dosumentation/Instalasi_Blynk_pada_Smartphone.pdf)
+Untuk melakukan intalasi dapat mengikuti panduan yang berada di dalam direktori [Blynk Documentation](/14_Smart_Home_Automation/Blynk_Dosumentation/Instalasi_Blynk_pada_Smartphone.pdf)
 
 ### Modul-modul yang dibutuhkan pada proyek ini:
 * ESP8266 IoT V2.0 (1),
